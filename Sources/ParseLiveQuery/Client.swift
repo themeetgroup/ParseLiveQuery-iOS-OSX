@@ -27,6 +27,11 @@ open class Client: NSObject {
     public var shouldPrintWebSocketTrace = false
     public var userDisconnected = false
     var isConnecting = false
+    /// The time in milliseconds we should wait before pinging the socket
+    /// when we recieve no data. If nil, no timer will be used.
+    public var pingTimerDelayMs: Int? = nil
+    /// Timer to ping the socket if we get no data for a set period of time
+    var pingTimer: DispatchSourceTimer? = nil
 
     // This allows us to easily plug in another request ID generation scheme, or more easily change the request id type
     // if needed (technically this could be a string).
