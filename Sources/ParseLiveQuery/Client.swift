@@ -23,6 +23,8 @@ open class Client: NSObject {
     let clientKey: String?
 
     var socket: WebSocket?
+    /// Used to track sockets that are disconnecting
+    var disconnectingSockets: Set<PLQDisconnectingSocket> = Set<PLQDisconnectingSocket>()
     public var shouldPrintWebSocketLog = true
     public var shouldPrintWebSocketTrace = false
     public var userDisconnected = false
@@ -257,13 +259,61 @@ extension Client {
      */
     @objc(disconnect)
     public func disconnect() {
+        disconnect(completion: nil)
+    }
+    /// This functions the same as disconnect except it also has a completion handler
+    /// - Parameter completion: Called when disconnected
+    public func disconnect(completion: (() -> Void)?) {
         isConnecting = false
         guard let socket = socket
             else {
                 return
         }
+        disconnectingSockets.insert(.init(socket: socket, completion: { [weak self] disconnetedSocket in
+            guard let sSelf = self else {
+                completion?()
+                return
+            }
+            sSelf.disconnectingSockets.remove(disconnetedSocket)
+            completion?()
+        }))
         socket.disconnect()
         self.socket = nil
         userDisconnected = true
+    }
+}
+
+/// An object that will handle disconnecting a socket and notifiying the owner
+class PLQDisconnectingSocket: WebSocketDelegate, Hashable {
+    /// The id of this class
+    let id: NSUUID = NSUUID()
+    /// The socket to close
+    let socket: WebSocket
+    /// The completion handler to notify when the socket is closed
+    let completion: ((PLQDisconnectingSocket) -> Void)
+    /// Init
+    /// - Parameters:
+    ///   - socket: The socket to close
+    ///   - delegate: The delegate owner to notify when the socket is closed
+    init(socket: WebSocket, completion: @escaping ((PLQDisconnectingSocket) -> Void)) {
+        self.socket = socket
+        self.completion = completion
+        self.socket.delegate = self
+    }
+    func didReceive(event: WebSocketEvent, client: WebSocket) {
+        switch event {
+        case .connected, .text, .binary, .error, .viabilityChanged, .reconnectSuggested, .ping, .pong:
+            break
+        case .disconnected(let reason, let code):
+            completion(self)
+        case .cancelled:
+            completion(self)
+        }
+    }
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    static func == (lhs: PLQDisconnectingSocket, rhs: PLQDisconnectingSocket) -> Bool {
+        lhs.id == rhs.id
     }
 }
