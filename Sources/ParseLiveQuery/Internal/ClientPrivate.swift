@@ -116,12 +116,14 @@ func == (first: Client.RequestId, second: Client.RequestId) -> Bool {
 
 extension Client: WebSocketDelegate {
     public func didReceive(event: WebSocketEvent, client: WebSocket) {
+        stopPingTimer()
         switch event {
         
         case .connected(_):
             isConnecting = false
             let sessionToken = PFUser.current()?.sessionToken ?? ""
             _ = self.sendOperationAsync(.connect(applicationId: applicationId, sessionToken: sessionToken, clientKey: clientKey))
+            startPingTimer()
         case .disconnected(let reason, let code):
             isConnecting = false
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: WebSocket did disconnect with error: \(reason) code:\(code)") }
@@ -136,8 +138,10 @@ extension Client: WebSocketDelegate {
                     NSLog("ParseLiveQuery: Error processing message: \(error)")
                 }
             }
+            startPingTimer()
         case .binary(_):
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Received binary data but we don't handle it...") }
+            startPingTimer()
         case .error(let error):
             NSLog("ParseLiveQuery: Error processing message: \(String(describing: error))")
         case .viabilityChanged(let isViable):
@@ -164,9 +168,29 @@ extension Client: WebSocketDelegate {
             }
         case .pong(_):
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Received pong but we don't handle it...") }
+            startPingTimer()
         case .ping(_):
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Received ping but we don't handle it...") }
+            startPingTimer()
         }
+    }
+    /// Stop the ping timer
+    func stopPingTimer() {
+        pingTimer?.cancel()
+        pingTimer = nil
+    }
+    /// Start the ping timer
+    func startPingTimer() {
+        stopPingTimer()
+        guard !isConnecting, let delay = pingTimerDelayMs, delay > 0 else { return }
+        pingTimer = DispatchSource.makeTimerSource(queue: DispatchQueue.main)
+        pingTimer?.schedule(wallDeadline: .now() + .milliseconds(delay))
+        pingTimer?.setEventHandler { [weak self] in
+            guard let sSelf = self, !sSelf.isConnecting else { return }
+            if sSelf.shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Sending ping") }
+            sSelf.socket?.write(ping: Data())
+        }
+        pingTimer?.resume()
     }
 }
 
