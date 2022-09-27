@@ -4,6 +4,14 @@
 
 [Full Changelog](https://github.com/parse-community/ParseLiveQuery-iOS-OSX/compare/2.8.0...master)
 
+### 2.8.2
+
+[Full Changelog](https://github.com/parse-community/ParseLiveQuery-iOS-OSX/compare/2.8.1...2.8.2)
+
+- Send ping to fix reconnect issue (https://github.com/themeetgroup/ParseLiveQuery-iOS-OSX/pull/5)
+
+- Make sure socket fully closes connection (https://github.com/themeetgroup/ParseLiveQuery-iOS-OSX/pull/6)
+
 ### 2.8.1
 
 [Full Changelog](https://github.com/parse-community/ParseLiveQuery-iOS-OSX/compare/2.8.0...2.8.1)
