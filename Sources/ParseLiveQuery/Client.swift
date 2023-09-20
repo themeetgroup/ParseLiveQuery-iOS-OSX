@@ -300,7 +300,7 @@ class PLQDisconnectingSocket: WebSocketDelegate, Hashable {
         self.completion = completion
         self.socket.delegate = self
     }
-    func didReceive(event: WebSocketEvent, client: WebSocket) {
+    func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocketClient) {
         switch event {
         case .connected, .text, .binary, .error, .viabilityChanged, .reconnectSuggested, .ping, .pong:
             break
@@ -309,6 +309,10 @@ class PLQDisconnectingSocket: WebSocketDelegate, Hashable {
         case .cancelled:
             completion(self)
         }
+        case .peerClosed:
+            completion(self)
+        }
+
     }
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
