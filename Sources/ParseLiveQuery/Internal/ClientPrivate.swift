@@ -115,7 +115,7 @@ func == (first: Client.RequestId, second: Client.RequestId) -> Bool {
 // ---------------
 
 extension Client: WebSocketDelegate {
-    public func didReceive(event: WebSocketEvent, client: WebSocket) {
+    public func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocketClient) {
         stopPingTimer()
         switch event {
         
@@ -172,6 +172,13 @@ extension Client: WebSocketDelegate {
         case .ping(_):
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Received ping but we don't handle it...") }
             startPingTimer()
+        }
+        case .peerClosed:
+            isConnecting = false
+            if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: WebSocket peerClosed...") }
+            if !userDisconnected {
+                reconnect()
+            }
         }
     }
     /// Stop the ping timer
