@@ -9,20 +9,35 @@
 /* Begin PBXBuildFile section */
 		0632EDD41CA1A6DB00DD3CB8 /* Parse+LiveQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632EDD31CA1A6DB00DD3CB8 /* Parse+LiveQuery.swift */; };
 		4A819D9D1D937866009C0F61 /* ObjCCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D58B51C8E33D9009F8D6C /* ObjCCompat.swift */; };
-		F1002FAE2BC6FD03006C0D11 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D80FDF1E26C04800AC7A2D /* AudioToolbox.framework */; };
-		F1002FAF2BC6FD1E006C0D11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D80FDD1E26C03E00AC7A2D /* SystemConfiguration.framework */; };
-		F1002FB02BC6FD27006C0D11 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AE9031E25AF4300F408BC /* Security.framework */; };
-		F1002FB12BC6FD36006C0D11 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AE8FF1E25AF3100F408BC /* libicucore.tbd */; };
-		F1002FB22BC6FD3F006C0D11 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D80FE11E26C05200AC7A2D /* libsqlite3.tbd */; };
-		F1002FB32BC6FD48006C0D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AE9011E25AF3A00F408BC /* Foundation.framework */; };
 		F1002FE12BC70083006C0D11 /* ParseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1002FE02BC70083006C0D11 /* ParseTestApp.swift */; };
 		F1002FE32BC70083006C0D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1002FE22BC70083006C0D11 /* ContentView.swift */; };
 		F1002FE52BC70084006C0D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1002FE42BC70084006C0D11 /* Assets.xcassets */; };
 		F1002FE82BC70084006C0D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1002FE72BC70084006C0D11 /* Preview Assets.xcassets */; };
-		F182381C2BC96F3D00FE412D /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18238182BC96F3D00FE412D /* Starscream.xcframework */; };
-		F182381D2BC96F3D00FE412D /* ParseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18238192BC96F3D00FE412D /* ParseCore.xcframework */; };
-		F182381E2BC96F3D00FE412D /* BoltsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F182381A2BC96F3D00FE412D /* BoltsSwift.xcframework */; };
-		F182381F2BC96F3D00FE412D /* Bolts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F182381B2BC96F3D00FE412D /* Bolts.xcframework */; };
+		F147F9892BC98B8600422672 /* Project.rb in Resources */ = {isa = PBXBuildFile; fileRef = F147F9882BC98B8600422672 /* Project.rb */; };
+		F16F580C2BC9CABD002F8EAF /* BoltsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */; };
+		F16F580E2BC9CACC002F8EAF /* BoltsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */; };
+		F16F580F2BC9CACC002F8EAF /* BoltsSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F16F58112BC9CADE002F8EAF /* ParseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */; };
+		F16F58122BC9CADE002F8EAF /* ParseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F16F58132BC9CB02002F8EAF /* Bolts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16F57EA2BC9C1A3002F8EAF /* Bolts.xcframework */; };
+		F16F58142BC9CB02002F8EAF /* Bolts.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16F57EA2BC9C1A3002F8EAF /* Bolts.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F16F58152BC9CB14002F8EAF /* ParseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */; };
+		F16F58162BC9CB14002F8EAF /* ParseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1ABBDE22BC987B20082143F /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDD2BC987B20082143F /* Starscream.xcframework */; };
+		F1ABBDED2BC987D10082143F /* build-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDE72BC987D10082143F /* build-frameworks.sh */; };
+		F1ABBDEE2BC987D10082143F /* build-dependencies.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDE82BC987D10082143F /* build-dependencies.sh */; };
+		F1ABBDEF2BC987D10082143F /* build-xcframework-from-git.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDE92BC987D10082143F /* build-xcframework-from-git.sh */; };
+		F1ABBDF12BC987D10082143F /* build-parse.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDEB2BC987D10082143F /* build-parse.sh */; };
+		F1ABBDF22BC987D10082143F /* build-xcframework-from-pod.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDEC2BC987D10082143F /* build-xcframework-from-pod.sh */; };
+		F1ABBE042BC9883C0082143F /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDD2BC987B20082143F /* Starscream.xcframework */; };
+		F1ABBE052BC9883C0082143F /* Starscream.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDD2BC987B20082143F /* Starscream.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1E347EB2BC99ED300D64759 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E347EA2BC99ED300D64759 /* SystemConfiguration.framework */; };
+		F1E347ED2BC99EE200D64759 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E347EC2BC99EDC00D64759 /* libsqlite3.tbd */; };
+		F1E347EF2BC99EF300D64759 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E347EE2BC99EF300D64759 /* AudioToolbox.framework */; };
+		F1E347F22BC99F0F00D64759 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E347F12BC99F0F00D64759 /* Security.framework */; };
+		F1E347F32BC99F1600D64759 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E347F02BC99EF900D64759 /* libicucore.tbd */; };
+		F1E348EC2BC9AABC00D64759 /* TMGParseLiveQuery.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDE2BC987B20082143F /* TMGParseLiveQuery.xcframework */; };
+		F1E348ED2BC9AABC00D64759 /* TMGParseLiveQuery.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDE2BC987B20082143F /* TMGParseLiveQuery.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5A88F4E1C9B7341002F0E0D /* QueryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5591BA91BD97BB70072F966 /* QueryEncoder.swift */; };
 		F5A88F4F1C9B7341002F0E0D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F534A5B31BDB09CE00CBD11A /* Operation.swift */; };
 		F5A88F501C9B7341002F0E0D /* ClientPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D58B71C8E3446009F8D6C /* ClientPrivate.swift */; };
@@ -33,22 +48,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F1002F952BC6F464006C0D11 /* Embed Frameworks */ = {
+		F16F58102BC9CACC002F8EAF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F16F58122BC9CADE002F8EAF /* ParseCore.xcframework in Embed Frameworks */,
+				F16F58142BC9CB02002F8EAF /* Bolts.xcframework in Embed Frameworks */,
+				F16F580F2BC9CACC002F8EAF /* BoltsSwift.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1002FF82BC7009A006C0D11 /* Embed Frameworks */ = {
+		F1ABBDF52BC987E90082143F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F1ABBE052BC9883C0082143F /* Starscream.xcframework in Embed Frameworks */,
+				F1E348ED2BC9AABC00D64759 /* TMGParseLiveQuery.xcframework in Embed Frameworks */,
+				F16F58162BC9CB14002F8EAF /* ParseCore.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,21 +78,28 @@
 
 /* Begin PBXFileReference section */
 		0632EDD31CA1A6DB00DD3CB8 /* Parse+LiveQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Parse+LiveQuery.swift"; sourceTree = "<group>"; };
-		094AE8FF1E25AF3100F408BC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		094AE9011E25AF3A00F408BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		094AE9031E25AF4300F408BC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		09D80FDD1E26C03E00AC7A2D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		09D80FDF1E26C04800AC7A2D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		09D80FE11E26C05200AC7A2D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F1002FDE2BC70083006C0D11 /* ParseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1002FE02BC70083006C0D11 /* ParseTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseTestApp.swift; sourceTree = "<group>"; };
 		F1002FE22BC70083006C0D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1002FE42BC70084006C0D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1002FE72BC70084006C0D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F18238182BC96F3D00FE412D /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = ../Frameworks/Starscream.xcframework; sourceTree = "<group>"; };
-		F18238192BC96F3D00FE412D /* ParseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ParseCore.xcframework; path = ../Frameworks/ParseCore.xcframework; sourceTree = "<group>"; };
-		F182381A2BC96F3D00FE412D /* BoltsSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BoltsSwift.xcframework; path = ../Frameworks/BoltsSwift.xcframework; sourceTree = "<group>"; };
-		F182381B2BC96F3D00FE412D /* Bolts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Bolts.xcframework; path = ../Frameworks/Bolts.xcframework; sourceTree = "<group>"; };
+		F147F9852BC98B4200422672 /* ParseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseCore.h; sourceTree = "<group>"; };
+		F147F9882BC98B8600422672 /* Project.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Project.rb; sourceTree = "<group>"; };
+		F16F57EA2BC9C1A3002F8EAF /* Bolts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Bolts.xcframework; path = ../Frameworks/Bolts.xcframework; sourceTree = "<group>"; };
+		F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BoltsSwift.xcframework; path = ../Frameworks/BoltsSwift.xcframework; sourceTree = "<group>"; };
+		F1ABBDDD2BC987B20082143F /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = ../Frameworks/Starscream.xcframework; sourceTree = "<group>"; };
+		F1ABBDDE2BC987B20082143F /* TMGParseLiveQuery.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TMGParseLiveQuery.xcframework; path = ../Frameworks/TMGParseLiveQuery.xcframework; sourceTree = "<group>"; };
+		F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ParseCore.xcframework; path = ../Frameworks/ParseCore.xcframework; sourceTree = "<group>"; };
+		F1ABBDE72BC987D10082143F /* build-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-frameworks.sh"; path = "../build-frameworks.sh"; sourceTree = "<group>"; };
+		F1ABBDE82BC987D10082143F /* build-dependencies.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-dependencies.sh"; path = "../build-dependencies.sh"; sourceTree = "<group>"; };
+		F1ABBDE92BC987D10082143F /* build-xcframework-from-git.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-xcframework-from-git.sh"; path = "../build-xcframework-from-git.sh"; sourceTree = "<group>"; };
+		F1ABBDEB2BC987D10082143F /* build-parse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-parse.sh"; path = "../build-parse.sh"; sourceTree = "<group>"; };
+		F1ABBDEC2BC987D10082143F /* build-xcframework-from-pod.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-xcframework-from-pod.sh"; path = "../build-xcframework-from-pod.sh"; sourceTree = "<group>"; };
+		F1E347EA2BC99ED300D64759 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F1E347EC2BC99EDC00D64759 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F1E347EE2BC99EF300D64759 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1E347F02BC99EF900D64759 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F1E347F12BC99F0F00D64759 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F5256FD31BD71F9A0052FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F534A5B11BDAFE0200CBD11A /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		F534A5B31BDB09CE00CBD11A /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
@@ -89,6 +117,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16F58152BC9CB14002F8EAF /* ParseCore.xcframework in Frameworks */,
+				F1ABBE042BC9883C0082143F /* Starscream.xcframework in Frameworks */,
+				F16F580C2BC9CABD002F8EAF /* BoltsSwift.xcframework in Frameworks */,
+				F1E348EC2BC9AABC00D64759 /* TMGParseLiveQuery.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,16 +128,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F182381D2BC96F3D00FE412D /* ParseCore.xcframework in Frameworks */,
-				F182381E2BC96F3D00FE412D /* BoltsSwift.xcframework in Frameworks */,
-				F182381F2BC96F3D00FE412D /* Bolts.xcframework in Frameworks */,
-				F1002FAE2BC6FD03006C0D11 /* AudioToolbox.framework in Frameworks */,
-				F1002FB22BC6FD3F006C0D11 /* libsqlite3.tbd in Frameworks */,
-				F1002FB32BC6FD48006C0D11 /* Foundation.framework in Frameworks */,
-				F182381C2BC96F3D00FE412D /* Starscream.xcframework in Frameworks */,
-				F1002FB02BC6FD27006C0D11 /* Security.framework in Frameworks */,
-				F1002FAF2BC6FD1E006C0D11 /* SystemConfiguration.framework in Frameworks */,
-				F1002FB12BC6FD36006C0D11 /* libicucore.tbd in Frameworks */,
+				F1E347ED2BC99EE200D64759 /* libsqlite3.tbd in Frameworks */,
+				F16F58132BC9CB02002F8EAF /* Bolts.xcframework in Frameworks */,
+				F16F580E2BC9CACC002F8EAF /* BoltsSwift.xcframework in Frameworks */,
+				F16F58112BC9CADE002F8EAF /* ParseCore.xcframework in Frameworks */,
+				F1E347EB2BC99ED300D64759 /* SystemConfiguration.framework in Frameworks */,
+				F1ABBDE22BC987B20082143F /* Starscream.xcframework in Frameworks */,
+				F1E347F32BC99F1600D64759 /* libicucore.tbd in Frameworks */,
+				F1E347EF2BC99EF300D64759 /* AudioToolbox.framework in Frameworks */,
+				F1E347F22BC99F0F00D64759 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,12 +146,16 @@
 		0BD13CAB7945A6C1A2A7B613 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09D80FDD1E26C03E00AC7A2D /* SystemConfiguration.framework */,
-				09D80FDF1E26C04800AC7A2D /* AudioToolbox.framework */,
-				09D80FE11E26C05200AC7A2D /* libsqlite3.tbd */,
-				094AE9011E25AF3A00F408BC /* Foundation.framework */,
-				094AE9031E25AF4300F408BC /* Security.framework */,
-				094AE8FF1E25AF3100F408BC /* libicucore.tbd */,
+				F1E347F12BC99F0F00D64759 /* Security.framework */,
+				F1E347F02BC99EF900D64759 /* libicucore.tbd */,
+				F1E347EE2BC99EF300D64759 /* AudioToolbox.framework */,
+				F1E347EC2BC99EDC00D64759 /* libsqlite3.tbd */,
+				F1E347EA2BC99ED300D64759 /* SystemConfiguration.framework */,
+				F16F57EA2BC9C1A3002F8EAF /* Bolts.xcframework */,
+				F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */,
+				F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */,
+				F1ABBDDD2BC987B20082143F /* Starscream.xcframework */,
+				F1ABBDDE2BC987B20082143F /* TMGParseLiveQuery.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,17 +187,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F147F9862BC98B4200422672 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				F147F9852BC98B4200422672 /* ParseCore.h */,
+				F147F9882BC98B8600422672 /* Project.rb */,
+			);
+			name = Parse;
+			path = ../Parse;
+			sourceTree = "<group>";
+		};
+		F1ABBDE62BC987C30082143F /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F1ABBDE82BC987D10082143F /* build-dependencies.sh */,
+				F1ABBDE72BC987D10082143F /* build-frameworks.sh */,
+				F1ABBDEB2BC987D10082143F /* build-parse.sh */,
+				F1ABBDE92BC987D10082143F /* build-xcframework-from-git.sh */,
+				F1ABBDEC2BC987D10082143F /* build-xcframework-from-pod.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
 		F5256FC41BD71F9A0052FB8A = {
 			isa = PBXGroup;
 			children = (
-				F182381B2BC96F3D00FE412D /* Bolts.xcframework */,
-				F182381A2BC96F3D00FE412D /* BoltsSwift.xcframework */,
-				F18238192BC96F3D00FE412D /* ParseCore.xcframework */,
-				F18238182BC96F3D00FE412D /* Starscream.xcframework */,
+				F147F9862BC98B4200422672 /* Parse */,
+				F1ABBDE62BC987C30082143F /* Scripts */,
+				0BD13CAB7945A6C1A2A7B613 /* Frameworks */,
 				F5256FD01BD71F9A0052FB8A /* ParseLiveQuery */,
 				F1002FDF2BC70083006C0D11 /* ParseTest */,
 				F5256FCF1BD71F9A0052FB8A /* Products */,
-				0BD13CAB7945A6C1A2A7B613 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -222,7 +277,7 @@
 				F1002FDA2BC70083006C0D11 /* Sources */,
 				F1002FDB2BC70083006C0D11 /* Frameworks */,
 				F1002FDC2BC70083006C0D11 /* Resources */,
-				F1002FF82BC7009A006C0D11 /* Embed Frameworks */,
+				F1ABBDF52BC987E90082143F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,7 +297,7 @@
 				F5A9BFC01BE0248D00E78326 /* Frameworks */,
 				F5A9BFC31BE0248D00E78326 /* Headers */,
 				F5A9BFC51BE0248D00E78326 /* Resources */,
-				F1002F952BC6F464006C0D11 /* Embed Frameworks */,
+				F16F58102BC9CACC002F8EAF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,8 +314,9 @@
 		F5256FC51BD71F9A0052FB8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = Parse;
 				TargetAttributes = {
 					F1002FDD2BC70083006C0D11 = {
@@ -304,6 +360,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1ABBDEE2BC987D10082143F /* build-dependencies.sh in Resources */,
+				F1ABBDEF2BC987D10082143F /* build-xcframework-from-git.sh in Resources */,
+				F1ABBDED2BC987D10082143F /* build-frameworks.sh in Resources */,
+				F147F9892BC98B8600422672 /* Project.rb in Resources */,
+				F1ABBDF12BC987D10082143F /* build-parse.sh in Resources */,
+				F1ABBDF22BC987D10082143F /* build-xcframework-from-pod.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +463,12 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"@executable_path/Frameworks/ParseCore.framework/Frameworks",
+					"@executable_path/Frameworks/TMGParseLiveQuery.framework/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -455,8 +521,12 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"@executable_path/Frameworks/ParseCore.framework/Frameworks",
+					"@executable_path/Frameworks/TMGParseLiveQuery.framework/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -486,11 +556,13 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -524,11 +596,13 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -549,13 +623,16 @@
 		F5A9BFC81BE0248D00E78326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ParseLiveQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -566,7 +643,9 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 2.8.2;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parse.livequery.ios;
 				PRODUCT_NAME = TMGParseLiveQuery;
 				SDKROOT = iphoneos;
@@ -581,13 +660,16 @@
 		F5A9BFC91BE0248D00E78326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ParseLiveQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -598,7 +680,9 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 2.8.2;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parse.livequery.ios;
 				PRODUCT_NAME = TMGParseLiveQuery;
 				SDKROOT = iphoneos;

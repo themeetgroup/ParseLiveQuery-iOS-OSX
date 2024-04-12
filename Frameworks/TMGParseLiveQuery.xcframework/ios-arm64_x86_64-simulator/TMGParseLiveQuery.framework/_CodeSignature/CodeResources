@@ -4,6 +4,55 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/BoltsSwift.framework/BoltsSwift</key>
+		<data>
+		XU/AA7Hc4QXlGr/pCXgI2hjD1vI=
+		</data>
+		<key>Frameworks/BoltsSwift.framework/Info.plist</key>
+		<data>
+		F1T3M+p98JgLNNrL14auXipd0Js=
+		</data>
+		<key>Frameworks/BoltsSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		KHokhfQHC2Fmfc1FhfBmnb5i/0Q=
+		</data>
+		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Bolts</key>
+		<data>
+		b1kaZihGVYOv7J4la8IN6enANVI=
+		</data>
+		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Info.plist</key>
+		<data>
+		IuBKzt4is0kDjYHgaR2fioNwgnI=
+		</data>
+		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
+		<data>
+		bR2O6u+WLs3IF9evkPzggVrwffQ=
+		</data>
+		<key>Frameworks/ParseCore.framework/Info.plist</key>
+		<data>
+		UvsKHPA+GhvKimVgHfcMyKJyPzU=
+		</data>
+		<key>Frameworks/ParseCore.framework/ParseCore</key>
+		<data>
+		t2kAJ7Q5Td7yboAjm3KtdB+skW0=
+		</data>
+		<key>Frameworks/ParseCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		CGRmH58ZgLHO5Faj3qFcgaIzSWQ=
+		</data>
+		<key>Frameworks/ParseCore.framework/en.lproj/Parse.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RZZ6w6Dws8Fx4uI6EEhMzZK4D+8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/ParseCore.framework/third_party_licenses.txt</key>
+		<data>
+		X8ZDHP/l5HrQbhsUNIDgPqBqqMw=
+		</data>
 		<key>Headers/TMGParseLiveQuery-Swift.h</key>
 		<data>
 		EBdVjMWrxWNfD3T+Ao9Vr0Bnc2E=
@@ -56,9 +105,112 @@
 		<data>
 		8yghWeYzz8DFtTNvkoXGVQkqG/Y=
 		</data>
+		<key>Project.rb</key>
+		<data>
+		vJuKrpmK/XQ6bfV82t7VOnllLbc=
+		</data>
+		<key>build-dependencies.sh</key>
+		<data>
+		78Tb/ca2tmhux9hphxPtc2z/NB8=
+		</data>
+		<key>build-frameworks.sh</key>
+		<data>
+		wK0N7r2l3jTp590i/KdWiLAJ208=
+		</data>
+		<key>build-parse.sh</key>
+		<data>
+		M6yXiTgsJF72YbRADJIaJW9+cnw=
+		</data>
+		<key>build-xcframework-from-git.sh</key>
+		<data>
+		ls+lBMpV8WKQAxSbY3OW+HebgHQ=
+		</data>
+		<key>build-xcframework-from-pod.sh</key>
+		<data>
+		sYZpLuA1BdJxTCRIW/Sn286SLM0=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/BoltsSwift.framework/BoltsSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fz6P7Va03c+IptVMD7gHS2uT1RYCCq6tPYoCeavi9iU=
+			</data>
+		</dict>
+		<key>Frameworks/BoltsSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6ZXoEg8YdErZiJGCja9O2xMHUzDpPt5AuEt4QEN3Kng=
+			</data>
+		</dict>
+		<key>Frameworks/BoltsSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4LUonMma3QDq8R306cUwSbnUW5mHDeqtmPjOGO3NCG0=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Bolts</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c0yvPNBFG0pceC3NzdG58niSILRcqt4tnBo4LkGhFjU=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AE2+JhDGfk9hvxsAf0yrJtHB+y/STHu8FreLgPjsAxU=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PWgRCxr4yFJx/LPO4QiPeBkD3DXgX1x9+Cgo2PuXpYg=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PcMIjepgrkyf/29vAzcA3oUUKKfm6PgPOqZT0X0Hnaw=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/ParseCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lsmwEpUR+PkGioqKWgHt8jiNzqCRmNo/J0IozzfrtpA=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QXRZ5ll1LDMQNHOWDqg0kPVIIYir+hp92f1A4m/SCH8=
+			</data>
+		</dict>
+		<key>Frameworks/ParseCore.framework/en.lproj/Parse.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vlgnkcd6A6wyWBJ6faXflMQ+Mh5+Qsb3IJf98PcKX48=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/ParseCore.framework/third_party_licenses.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k8RyZH5fTJ+Yuaby1Pkwgaaa/jUEyiylF+b/2jkUVn4=
+			</data>
+		</dict>
 		<key>Headers/TMGParseLiveQuery-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -141,6 +293,48 @@
 			<key>hash2</key>
 			<data>
 			+7bb/LBtgpNCr6/CGlXcZZUH33TgD/N8Br8zkW48hFQ=
+			</data>
+		</dict>
+		<key>Project.rb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ivzz2qjUxIpf4MmsRGHAIK4tLK2AhN8N0X+v1TK5PHY=
+			</data>
+		</dict>
+		<key>build-dependencies.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1b6hsiHQ642d1KZGIb/EnfWRuKF2bL5NGvQiyV0aM74=
+			</data>
+		</dict>
+		<key>build-frameworks.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/moSfQ1JDpiHusBNjLlts8dtEWY3E/pSQZsCqQqCCGo=
+			</data>
+		</dict>
+		<key>build-parse.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/Sbf7Zeqk0JTDSt7lzuycDRm76wcKGpv9FUMaM+nndc=
+			</data>
+		</dict>
+		<key>build-xcframework-from-git.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MPMUBPfqlnvNa9k9bFZZf6R1j85iM99wa+MepI5nxtE=
+			</data>
+		</dict>
+		<key>build-xcframework-from-pod.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C9+bCRVgkwhOr7WjgmJcxoqmVwqOaPA2DPjc/GKv174=
 			</data>
 		</dict>
 	</dict>

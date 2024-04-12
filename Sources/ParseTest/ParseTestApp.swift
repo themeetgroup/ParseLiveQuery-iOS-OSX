@@ -8,12 +8,19 @@
 
 import SwiftUI
 import TMGParseLiveQuery
+import ParseCore
 
 @main
 struct ParseTestApp: App {
+    var testObject = TestObject()
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+    }
+}
+
+class TestObject {
+    init() {
     }
 }
