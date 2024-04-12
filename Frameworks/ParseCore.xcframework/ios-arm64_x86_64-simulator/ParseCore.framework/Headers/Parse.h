@@ -149,7 +149,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Flag that indicates whether Local Datastore is enabled.
- 
+
  @return `YES` if Local Datastore is enabled, otherwise `NO`.
  */
 @property (nonatomic, readonly, class) BOOL isLocalDatastoreEnabled PF_TV_UNAVAILABLE;
