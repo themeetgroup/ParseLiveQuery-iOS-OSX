@@ -1,0 +1,2728 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AggregateError",
+        "printedName": "AggregateError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errors",
+            "printedName": "errors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any Swift.Error]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift14AggregateErrorV6errorsSays0D0_pGvp",
+            "mangledName": "$s10BoltsSwift14AggregateErrorV6errorsSays0D0_pGvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any Swift.Error]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift14AggregateErrorV6errorsSays0D0_pGvg",
+                "mangledName": "$s10BoltsSwift14AggregateErrorV6errorsSays0D0_pGvg",
+                "moduleName": "BoltsSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10BoltsSwift14AggregateErrorV",
+        "mangledName": "$s10BoltsSwift14AggregateErrorV",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CancelledError",
+        "printedName": "CancelledError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CancelledError",
+                "printedName": "BoltsSwift.CancelledError",
+                "usr": "s:10BoltsSwift14CancelledErrorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10BoltsSwift14CancelledErrorVACycfc",
+            "mangledName": "$s10BoltsSwift14CancelledErrorVACycfc",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10BoltsSwift14CancelledErrorV",
+        "mangledName": "$s10BoltsSwift14CancelledErrorV",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Executor",
+        "printedName": "Executor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Executor",
+                    "printedName": "BoltsSwift.Executor",
+                    "usr": "s:10BoltsSwift8ExecutorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO7defaultyA2CmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO7defaultyA2CmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "immediate",
+            "printedName": "immediate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Executor",
+                    "printedName": "BoltsSwift.Executor",
+                    "usr": "s:10BoltsSwift8ExecutorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO9immediateyA2CmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO9immediateyA2CmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mainThread",
+            "printedName": "mainThread",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Executor",
+                    "printedName": "BoltsSwift.Executor",
+                    "usr": "s:10BoltsSwift8ExecutorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO10mainThreadyA2CmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO10mainThreadyA2CmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queue",
+            "printedName": "queue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> (Dispatch.DispatchQueue) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Dispatch.DispatchQueue) -> BoltsSwift.Executor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DispatchQueue",
+                        "printedName": "Dispatch.DispatchQueue",
+                        "usr": "c:objc(cs)OS_dispatch_queue"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO5queueyACSo012OS_dispatch_D0CcACmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO5queueyACSo012OS_dispatch_D0CcACmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "operationQueue",
+            "printedName": "operationQueue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> (Foundation.OperationQueue) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.OperationQueue) -> BoltsSwift.Executor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OperationQueue",
+                        "printedName": "Foundation.OperationQueue",
+                        "usr": "c:objc(cs)NSOperationQueue"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO14operationQueueyACSo011NSOperationE0CcACmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO14operationQueueyACSo011NSOperationE0CcACmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closure",
+            "printedName": "closure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> (@escaping (() -> ()) -> ()) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping (() -> ()) -> ()) -> BoltsSwift.Executor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(() -> ()) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ],
+                            "typeAttributes": [
+                              "noescape"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO7closureyACyyyXEccACmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO7closureyACyyyXEccACmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "escapingClosure",
+            "printedName": "escapingClosure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Executor.Type) -> (@escaping (@escaping () -> ()) -> ()) -> BoltsSwift.Executor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping (@escaping () -> ()) -> ()) -> BoltsSwift.Executor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(@escaping () -> ()) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoltsSwift.Executor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Executor",
+                        "printedName": "BoltsSwift.Executor",
+                        "usr": "s:10BoltsSwift8ExecutorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10BoltsSwift8ExecutorO15escapingClosureyACyyycccACmF",
+            "mangledName": "$s10BoltsSwift8ExecutorO15escapingClosureyACyyycccACmF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift8ExecutorO7executeyyyycF",
+            "mangledName": "$s10BoltsSwift8ExecutorO7executeyyyycF",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift8ExecutorO11descriptionSSvp",
+            "mangledName": "$s10BoltsSwift8ExecutorO11descriptionSSvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift8ExecutorO11descriptionSSvg",
+                "mangledName": "$s10BoltsSwift8ExecutorO11descriptionSSvg",
+                "moduleName": "BoltsSwift",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift8ExecutorO16debugDescriptionSSvp",
+            "mangledName": "$s10BoltsSwift8ExecutorO16debugDescriptionSSvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift8ExecutorO16debugDescriptionSSvg",
+                "mangledName": "$s10BoltsSwift8ExecutorO16debugDescriptionSSvg",
+                "moduleName": "BoltsSwift",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10BoltsSwift8ExecutorO",
+        "mangledName": "$s10BoltsSwift8ExecutorO",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Task",
+        "printedName": "Task",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10BoltsSwift4TaskCyACyxGxcfc",
+            "mangledName": "$s10BoltsSwift4TaskCyACyxGxcfc",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10BoltsSwift4TaskC5errorACyxGs5Error_p_tcfc",
+            "mangledName": "$s10BoltsSwift4TaskC5errorACyxGs5Error_p_tcfc",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelledTask",
+            "printedName": "cancelledTask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC09cancelledC0ACyxGXDyFZ",
+            "mangledName": "$s10BoltsSwift4TaskC09cancelledC0ACyxGXDyFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:closure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10BoltsSwift4TaskC_7closureACyxGAA8ExecutorO_xyKctcfc",
+            "mangledName": "$s10BoltsSwift4TaskC_7closureACyxGAA8ExecutorO_xyKctcfc",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(_:closure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC7execute_7closureACyxGAA8ExecutorO_xyKctFZ",
+            "mangledName": "$s10BoltsSwift4TaskC7execute_7closureACyxGAA8ExecutorO_xyKctFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeWithTask",
+            "printedName": "executeWithTask(_:closure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC011executeWithC0_7closureACyxGAA8ExecutorO_AFyKctFZ",
+            "mangledName": "$s10BoltsSwift4TaskC011executeWithC0_7closureACyxGAA8ExecutorO_AFyKctFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC9completedSbvp",
+            "mangledName": "$s10BoltsSwift4TaskC9completedSbvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC9completedSbvg",
+                "mangledName": "$s10BoltsSwift4TaskC9completedSbvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faulted",
+            "printedName": "faulted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC7faultedSbvp",
+            "mangledName": "$s10BoltsSwift4TaskC7faultedSbvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC7faultedSbvg",
+                "mangledName": "$s10BoltsSwift4TaskC7faultedSbvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC9cancelledSbvp",
+            "mangledName": "$s10BoltsSwift4TaskC9cancelledSbvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC9cancelledSbvg",
+                "mangledName": "$s10BoltsSwift4TaskC9cancelledSbvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC6resultxSgvp",
+            "mangledName": "$s10BoltsSwift4TaskC6resultxSgvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC6resultxSgvg",
+                "mangledName": "$s10BoltsSwift4TaskC6resultxSgvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC5errors5Error_pSgvp",
+            "mangledName": "$s10BoltsSwift4TaskC5errors5Error_pSgvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC5errors5Error_pSgvg",
+                "mangledName": "$s10BoltsSwift4TaskC5errors5Error_pSgvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "waitUntilCompleted",
+            "printedName": "waitUntilCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC18waitUntilCompletedyyF",
+            "mangledName": "$s10BoltsSwift4TaskC18waitUntilCompletedyyF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC11descriptionSSvp",
+            "mangledName": "$s10BoltsSwift4TaskC11descriptionSSvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC11descriptionSSvg",
+                "mangledName": "$s10BoltsSwift4TaskC11descriptionSSvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift4TaskC16debugDescriptionSSvp",
+            "mangledName": "$s10BoltsSwift4TaskC16debugDescriptionSSvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift4TaskC16debugDescriptionSSvg",
+                "mangledName": "$s10BoltsSwift4TaskC16debugDescriptionSSvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "continueWith",
+            "printedName": "continueWith(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Task<τ_0_0>) throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC12continueWith_12continuationACyqd__GAA8ExecutorO_qd__ACyxGKctlF",
+            "mangledName": "$s10BoltsSwift4TaskC12continueWith_12continuationACyqd__GAA8ExecutorO_qd__ACyxGKctlF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<TResult, S>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueWithTask",
+            "printedName": "continueWithTask(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoltsSwift.Task<τ_0_0>) throws -> BoltsSwift.Task<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC012continueWithC0_12continuationACyqd__GAA8ExecutorO_AfCyxGKctlF",
+            "mangledName": "$s10BoltsSwift4TaskC012continueWithC0_12continuationACyqd__GAA8ExecutorO_AfCyxGKctlF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<TResult, S>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueOnSuccessWith",
+            "printedName": "continueOnSuccessWith(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC21continueOnSuccessWith_12continuationACyqd__GAA8ExecutorO_qd__xKctlF",
+            "mangledName": "$s10BoltsSwift4TaskC21continueOnSuccessWith_12continuationACyqd__GAA8ExecutorO_qd__xKctlF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<TResult, S>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueOnSuccessWithTask",
+            "printedName": "continueOnSuccessWithTask(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> BoltsSwift.Task<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC021continueOnSuccessWithC0_12continuationACyqd__GAA8ExecutorO_AFxKctlF",
+            "mangledName": "$s10BoltsSwift4TaskC021continueOnSuccessWithC0_12continuationACyqd__GAA8ExecutorO_AFxKctlF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<TResult, S>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueOnErrorWith",
+            "printedName": "continueOnErrorWith(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_1_0) throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC19continueOnErrorWith_12continuationACyxGAA8ExecutorO_xqd__Kcts0F0Rd__lF",
+            "mangledName": "$s10BoltsSwift4TaskC19continueOnErrorWith_12continuationACyxGAA8ExecutorO_xqd__Kcts0F0Rd__lF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_1_0 : Swift.Error>",
+            "sugared_genericSig": "<TResult, E where E : Swift.Error>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueOnErrorWith",
+            "printedName": "continueOnErrorWith(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC19continueOnErrorWith_12continuationACyxGAA8ExecutorO_xs0F0_pKctF",
+            "mangledName": "$s10BoltsSwift4TaskC19continueOnErrorWith_12continuationACyxGAA8ExecutorO_xs0F0_pKctF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueOnErrorWithTask",
+            "printedName": "continueOnErrorWithTask(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_1_0) throws -> BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC019continueOnErrorWithC0_12continuationACyxGAA8ExecutorO_AFqd__Kcts0F0Rd__lF",
+            "mangledName": "$s10BoltsSwift4TaskC019continueOnErrorWithC0_12continuationACyxGAA8ExecutorO_AFqd__Kcts0F0Rd__lF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_1_0 : Swift.Error>",
+            "sugared_genericSig": "<TResult, E where E : Swift.Error>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "continueOnErrorWithTask",
+            "printedName": "continueOnErrorWithTask(_:continuation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Executor",
+                "printedName": "BoltsSwift.Executor",
+                "hasDefaultArg": true,
+                "usr": "s:10BoltsSwift8ExecutorO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) throws -> BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC019continueOnErrorWithC0_12continuationACyxGAA8ExecutorO_AFs0F0_pKctF",
+            "mangledName": "$s10BoltsSwift4TaskC019continueOnErrorWithC0_12continuationACyxGAA8ExecutorO_AFs0F0_pKctF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withDelay",
+            "printedName": "withDelay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC9withDelayyACyytGSdFZ",
+            "mangledName": "$s10BoltsSwift4TaskC9withDelayyACyytGSdFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whenAll",
+            "printedName": "whenAll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BoltsSwift.Task<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC7whenAllyACyytGSayACyxGGFZ",
+            "mangledName": "$s10BoltsSwift4TaskC7whenAllyACyytGSayACyxGGFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whenAll",
+            "printedName": "whenAll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BoltsSwift.Task<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC7whenAllyACyytGACyxGd_tFZ",
+            "mangledName": "$s10BoltsSwift4TaskC7whenAllyACyytGACyxGd_tFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whenAllResult",
+            "printedName": "whenAllResult(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<[τ_0_0]>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BoltsSwift.Task<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC13whenAllResultyACySayxGGSayACyxGGFZ",
+            "mangledName": "$s10BoltsSwift4TaskC13whenAllResultyACySayxGGSayACyxGGFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whenAllResult",
+            "printedName": "whenAllResult(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<[τ_0_0]>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BoltsSwift.Task<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC13whenAllResultyACySayxGGACyxGd_tFZ",
+            "mangledName": "$s10BoltsSwift4TaskC13whenAllResultyACySayxGGACyxGd_tFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whenAny",
+            "printedName": "whenAny(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BoltsSwift.Task<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC7whenAnyyACyytGSayACyxGGFZ",
+            "mangledName": "$s10BoltsSwift4TaskC7whenAnyyACyytGSayACyxGGFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "whenAny",
+            "printedName": "whenAny(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BoltsSwift.Task<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift4TaskC7whenAnyyACyytGACyxGd_tFZ",
+            "mangledName": "$s10BoltsSwift4TaskC7whenAnyyACyytGACyxGd_tFZ",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10BoltsSwift4TaskC",
+        "mangledName": "$s10BoltsSwift4TaskC",
+        "moduleName": "BoltsSwift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<TResult>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoltsSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TaskCompletionSource",
+        "printedName": "TaskCompletionSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "task",
+            "printedName": "task",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Task",
+                "printedName": "BoltsSwift.Task<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift4TaskC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC4taskAA0C0CyxGvp",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC4taskAA0C0CyxGvp",
+            "moduleName": "BoltsSwift",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Task",
+                    "printedName": "BoltsSwift.Task<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10BoltsSwift4TaskC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BoltsSwift20TaskCompletionSourceC4taskAA0C0CyxGvg",
+                "mangledName": "$s10BoltsSwift20TaskCompletionSourceC4taskAA0C0CyxGvg",
+                "moduleName": "BoltsSwift",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<TResult>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TaskCompletionSource",
+                "printedName": "BoltsSwift.TaskCompletionSource<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10BoltsSwift20TaskCompletionSourceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceCACyxGycfc",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceCACyxGycfc",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC3set6resultyx_tF",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC3set6resultyx_tF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC3set5errorys5Error_p_tF",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC3set5errorys5Error_p_tF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC6cancelyyF",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC6cancelyyF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trySet",
+            "printedName": "trySet(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC6trySet6resultSbx_tF",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC6trySet6resultSbx_tF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trySet",
+            "printedName": "trySet(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC6trySet5errorSbs5Error_p_tF",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC6trySet5errorSbs5Error_p_tF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tryCancel",
+            "printedName": "tryCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BoltsSwift20TaskCompletionSourceC9tryCancelSbyF",
+            "mangledName": "$s10BoltsSwift20TaskCompletionSourceC9tryCancelSbyF",
+            "moduleName": "BoltsSwift",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<TResult>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10BoltsSwift20TaskCompletionSourceC",
+        "mangledName": "$s10BoltsSwift20TaskCompletionSourceC",
+        "moduleName": "BoltsSwift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<TResult>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Executor.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 24,
+      "value": "\"com.bolts.TaskDepthKey\""
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Executor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1745,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Executor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Executor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2286,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "IntegerLiteral",
+      "offset": 900,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "IntegerLiteral",
+      "offset": 905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "IntegerLiteral",
+      "offset": 970,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "IntegerLiteral",
+      "offset": 975,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1044,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1049,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Bolts-Swift\/Pods\/Bolts-Swift\/Sources\/BoltsSwift\/Task.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 16,
+      "value": "\"com.bolts.task\""
+    }
+  ]
+}

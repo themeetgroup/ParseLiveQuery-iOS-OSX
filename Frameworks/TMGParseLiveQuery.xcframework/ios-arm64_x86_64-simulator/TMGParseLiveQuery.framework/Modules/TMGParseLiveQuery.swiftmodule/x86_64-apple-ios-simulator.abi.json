@@ -1,0 +1,5086 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "BoltsSwift",
+        "printedName": "BoltsSwift",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SubscriptionHandling",
+        "printedName": "SubscriptionHandling",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "PFObjectSubclass",
+            "printedName": "PFObjectSubclass",
+            "declKind": "AssociatedType",
+            "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP16PFObjectSubclassQa",
+            "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP16PFObjectSubclassQa",
+            "moduleName": "TMGParseLiveQuery",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:forQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "TMGParseLiveQuery.Event<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP10didReceive_03forC08inClientyAA5EventOy16PFObjectSubclassQzG_So7PFQueryCyAJGAA0J0CtF",
+            "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP10didReceive_03forC08inClientyAA5EventOy16PFObjectSubclassQzG_So7PFQueryCyAJGAA0J0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.SubscriptionHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didEncounter",
+            "printedName": "didEncounter(_:forQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP12didEncounter_03forC08inClientys5Error_p_So7PFQueryCy16PFObjectSubclassQzGAA0J0CtF",
+            "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP12didEncounter_03forC08inClientys5Error_p_So7PFQueryCy16PFObjectSubclassQzGAA0J0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.SubscriptionHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didSubscribe",
+            "printedName": "didSubscribe(toQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP12didSubscribe02toC08inClientySo7PFQueryCy16PFObjectSubclassQzG_AA0J0CtF",
+            "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP12didSubscribe02toC08inClientySo7PFQueryCy16PFObjectSubclassQzG_AA0J0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.SubscriptionHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUnsubscribe",
+            "printedName": "didUnsubscribe(fromQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP14didUnsubscribe04fromC08inClientySo7PFQueryCy16PFObjectSubclassQzG_AA0J0CtF",
+            "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP14didUnsubscribe04fromC08inClientySo7PFQueryCy16PFObjectSubclassQzG_AA0J0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.SubscriptionHandling>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP",
+        "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP",
+        "moduleName": "TMGParseLiveQuery",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0.PFObjectSubclass : ParseCore.PFObject>",
+        "sugared_genericSig": "<Self : AnyObject, Self.PFObjectSubclass : ParseCore.PFObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Event",
+        "printedName": "Event",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "entered",
+            "printedName": "entered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : ParseCore.PFObject> (TMGParseLiveQuery.Event<τ_0_0>.Type) -> (τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.Event<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17TMGParseLiveQuery5EventO7enteredyACyxGxcAEmSo8PFObjectCRbzlF",
+            "mangledName": "$s17TMGParseLiveQuery5EventO7enteredyACyxGxcAEmSo8PFObjectCRbzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "left",
+            "printedName": "left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : ParseCore.PFObject> (TMGParseLiveQuery.Event<τ_0_0>.Type) -> (τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.Event<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17TMGParseLiveQuery5EventO4leftyACyxGxcAEmSo8PFObjectCRbzlF",
+            "mangledName": "$s17TMGParseLiveQuery5EventO4leftyACyxGxcAEmSo8PFObjectCRbzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "created",
+            "printedName": "created",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : ParseCore.PFObject> (TMGParseLiveQuery.Event<τ_0_0>.Type) -> (τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.Event<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17TMGParseLiveQuery5EventO7createdyACyxGxcAEmSo8PFObjectCRbzlF",
+            "mangledName": "$s17TMGParseLiveQuery5EventO7createdyACyxGxcAEmSo8PFObjectCRbzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updated",
+            "printedName": "updated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : ParseCore.PFObject> (TMGParseLiveQuery.Event<τ_0_0>.Type) -> (τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.Event<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17TMGParseLiveQuery5EventO7updatedyACyxGxcAEmSo8PFObjectCRbzlF",
+            "mangledName": "$s17TMGParseLiveQuery5EventO7updatedyACyxGxcAEmSo8PFObjectCRbzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deleted",
+            "printedName": "deleted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : ParseCore.PFObject> (TMGParseLiveQuery.Event<τ_0_0>.Type) -> (τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.Event<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17TMGParseLiveQuery5EventO7deletedyACyxGxcAEmSo8PFObjectCRbzlF",
+            "mangledName": "$s17TMGParseLiveQuery5EventO7deletedyACyxGxcAEmSo8PFObjectCRbzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17TMGParseLiveQuery5EventO",
+        "mangledName": "$s17TMGParseLiveQuery5EventO",
+        "moduleName": "TMGParseLiveQuery",
+        "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+        "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Subscription",
+        "printedName": "Subscription",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionCACyxGycfc",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionCACyxGycfc",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handleError",
+            "printedName": "handleError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ParseCore.PFQuery<τ_0_0>, any Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ParseCore.PFQuery<τ_0_0>, any Swift.Error)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFQuery",
+                        "printedName": "ParseCore.PFQuery<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "c:objc(cs)PFQuery"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC11handleErroryACyxGySo7PFQueryCyxG_s0F0_ptcF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC11handleErroryACyxGySo7PFQueryCyxG_s0F0_ptcF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleEvent",
+            "printedName": "handleEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ParseCore.PFQuery<τ_0_0>, TMGParseLiveQuery.Event<τ_0_0>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ParseCore.PFQuery<τ_0_0>, TMGParseLiveQuery.Event<τ_0_0>)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFQuery",
+                        "printedName": "ParseCore.PFQuery<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "c:objc(cs)PFQuery"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:17TMGParseLiveQuery5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC11handleEventyACyxGySo7PFQueryCyxG_AA0F0OyxGtcF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC11handleEventyACyxGySo7PFQueryCyxG_AA0F0OyxGtcF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleSubscribe",
+            "printedName": "handleSubscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ParseCore.PFQuery<τ_0_0>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFQuery",
+                    "printedName": "ParseCore.PFQuery<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "c:objc(cs)PFQuery"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC15handleSubscribeyACyxGySo7PFQueryCyxGcF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC15handleSubscribeyACyxGySo7PFQueryCyxGcF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleUnsubscribe",
+            "printedName": "handleUnsubscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ParseCore.PFQuery<τ_0_0>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFQuery",
+                    "printedName": "ParseCore.PFQuery<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "c:objc(cs)PFQuery"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC17handleUnsubscribeyACyxGySo7PFQueryCyxGcF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC17handleUnsubscribeyACyxGySo7PFQueryCyxGcF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:forQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC10didReceive_03forC08inClientyAA5EventOyxG_So7PFQueryCyxGAA0I0CtF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC10didReceive_03forC08inClientyAA5EventOyxG_So7PFQueryCyxGAA0I0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didEncounter",
+            "printedName": "didEncounter(_:forQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC12didEncounter_03forC08inClientys5Error_p_So7PFQueryCyxGAA0I0CtF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC12didEncounter_03forC08inClientys5Error_p_So7PFQueryCyxGAA0I0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didSubscribe",
+            "printedName": "didSubscribe(toQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC12didSubscribe02toC08inClientySo7PFQueryCyxG_AA0I0CtF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC12didSubscribe02toC08inClientySo7PFQueryCyxG_AA0I0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUnsubscribe",
+            "printedName": "didUnsubscribe(fromQuery:inClient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC14didUnsubscribe04fromC08inClientySo7PFQueryCyxG_AA0I0CtF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC14didUnsubscribe04fromC08inClientySo7PFQueryCyxG_AA0I0CtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ParseCore.PFQuery<τ_0_0>, τ_1_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ParseCore.PFQuery<τ_0_0>, τ_1_0)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFQuery",
+                        "printedName": "ParseCore.PFQuery<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "c:objc(cs)PFQuery"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC6handleyACyxGqd__m_ySo7PFQueryCyxG_qd__tcts5ErrorRd__lF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC6handleyACyxGqd__m_ySo7PFQueryCyxG_qd__tcts5ErrorRd__lF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ParseCore.PFObject, τ_1_0 : Swift.Error>",
+            "sugared_genericSig": "<T, E where T : ParseCore.PFObject, E : Swift.Error>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> TMGParseLiveQuery.Event<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Event",
+                    "printedName": "TMGParseLiveQuery.Event<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:17TMGParseLiveQuery5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ParseCore.PFQuery<τ_0_0>, τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ParseCore.PFQuery<τ_0_0>, τ_0_0)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFQuery",
+                        "printedName": "ParseCore.PFQuery<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "c:objc(cs)PFQuery"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery12SubscriptionC6handleyACyxGAA5EventOyxGxc_ySo7PFQueryCyxG_xtctF",
+            "mangledName": "$s17TMGParseLiveQuery12SubscriptionC6handleyACyxGAA5EventOyxGxc_ySo7PFQueryCyxG_xtctF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17TMGParseLiveQuery12SubscriptionC",
+        "mangledName": "$s17TMGParseLiveQuery12SubscriptionC",
+        "moduleName": "TMGParseLiveQuery",
+        "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+        "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SubscriptionHandling",
+            "printedName": "SubscriptionHandling",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PFObjectSubclass",
+                "printedName": "PFObjectSubclass",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:17TMGParseLiveQuery20SubscriptionHandlingP",
+            "mangledName": "$s17TMGParseLiveQuery20SubscriptionHandlingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "BoltsSwift",
+        "printedName": "BoltsSwift",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveQueryErrors",
+        "printedName": "LiveQueryErrors",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "InvalidResponseError",
+            "printedName": "InvalidResponseError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "response",
+                "printedName": "response",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV20InvalidResponseErrorV8responseSSvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV20InvalidResponseErrorV8responseSSvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV20InvalidResponseErrorV8responseSSvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV20InvalidResponseErrorV8responseSSvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:17TMGParseLiveQuery0bC6ErrorsV20InvalidResponseErrorV",
+            "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV20InvalidResponseErrorV",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "InvalidQueryError",
+            "printedName": "InvalidQueryError",
+            "declKind": "Struct",
+            "usr": "s:17TMGParseLiveQuery0bC6ErrorsV07InvalidC5ErrorV",
+            "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV07InvalidC5ErrorV",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "InvalidJSONError",
+            "printedName": "InvalidJSONError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "json",
+                "printedName": "json",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV4jsonSDySSyXlGvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV4jsonSDySSyXlGvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : AnyObject]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV4jsonSDySSyXlGvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV4jsonSDySSyXlGvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "expectedKey",
+                "printedName": "expectedKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV11expectedKeySSvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV11expectedKeySSvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV11expectedKeySSvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV11expectedKeySSvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV",
+            "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV16InvalidJSONErrorV",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "InvalidJSONObject",
+            "printedName": "InvalidJSONObject",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "json",
+                "printedName": "json",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV4jsonSDySSyXlGvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV4jsonSDySSyXlGvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : AnyObject]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV4jsonSDySSyXlGvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV4jsonSDySSyXlGvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "details",
+                "printedName": "details",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV7detailsSSvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV7detailsSSvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV7detailsSSvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV7detailsSSvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV",
+            "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV17InvalidJSONObjectV",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ServerReportedError",
+            "printedName": "ServerReportedError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "code",
+                "printedName": "code",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV4codeSivp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV4codeSivp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV4codeSivg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV4codeSivg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV5errorSSvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV5errorSSvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV5errorSSvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV5errorSSvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "reconnect",
+                "printedName": "reconnect",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV9reconnectSbvp",
+                "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV9reconnectSbvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV9reconnectSbvg",
+                    "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV9reconnectSbvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV",
+            "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV19ServerReportedErrorV",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17TMGParseLiveQuery0bC6ErrorsV",
+        "mangledName": "$s17TMGParseLiveQuery0bC6ErrorsV",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "BoltsSwift",
+        "printedName": "BoltsSwift",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Client",
+        "printedName": "Client",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shouldPrintWebSocketLog",
+            "printedName": "shouldPrintWebSocketLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvp",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvp",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvg",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvg",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvs",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvs",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvM",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC23shouldPrintWebSocketLogSbvM",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldPrintWebSocketTrace",
+            "printedName": "shouldPrintWebSocketTrace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvp",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvp",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvg",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvg",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvs",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvs",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvM",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC25shouldPrintWebSocketTraceSbvM",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userDisconnected",
+            "printedName": "userDisconnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TMGParseLiveQuery6ClientC16userDisconnectedSbvp",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC16userDisconnectedSbvp",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC16userDisconnectedSbvg",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC16userDisconnectedSbvg",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC16userDisconnectedSbvs",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC16userDisconnectedSbvs",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC16userDisconnectedSbvM",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC16userDisconnectedSbvM",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pingTimerDelayMs",
+            "printedName": "pingTimerDelayMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvp",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvp",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvg",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvg",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvs",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvs",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvM",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC16pingTimerDelayMsSiSgvM",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)init",
+            "mangledName": "$s17TMGParseLiveQuery6ClientCACycfc",
+            "moduleName": "TMGParseLiveQuery",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Convenience",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(server:applicationId:clientKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)initWithServer:applicationId:clientKey:",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC6server13applicationId9clientKeyACSS_SSSgAGtcfc",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "initWithServer:applicationId:clientKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(event:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebSocketEvent",
+                "printedName": "Starscream.WebSocketEvent",
+                "usr": "s:10Starscream14WebSocketEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebSocketClient",
+                "printedName": "any Starscream.WebSocketClient",
+                "usr": "s:10Starscream15WebSocketClientP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery6ClientC10didReceive5event6clienty10Starscream14WebSocketEventO_AG0jkD0_ptF",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC10didReceive5event6clienty10Starscream14WebSocketEventO_AG0jkD0_ptF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "TMGParseLiveQuery.Client?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Client",
+                    "printedName": "TMGParseLiveQuery.Client",
+                    "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(cpy)sharedClient",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC6sharedACSgvpZ",
+            "moduleName": "TMGParseLiveQuery",
+            "static": true,
+            "objc_name": "sharedClient",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "TMGParseLiveQuery.Client?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Client",
+                        "printedName": "TMGParseLiveQuery.Client",
+                        "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(cm)sharedClient",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC6sharedACSgvgZ",
+                "moduleName": "TMGParseLiveQuery",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "TMGParseLiveQuery.Client?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Client",
+                        "printedName": "TMGParseLiveQuery.Client",
+                        "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(cm)setSharedClient:",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC6sharedACSgvsZ",
+                "moduleName": "TMGParseLiveQuery",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery6ClientC6sharedACSgvMZ",
+                "mangledName": "$s17TMGParseLiveQuery6ClientC6sharedACSgvMZ",
+                "moduleName": "TMGParseLiveQuery",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(_:subclassType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.Subscription<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:17TMGParseLiveQuery12SubscriptionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery6ClientC9subscribe_12subclassTypeAA12SubscriptionCyxGSo7PFQueryCyxG_xmtSo8PFObjectCRbzlF",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC9subscribe_12subclassTypeAA12SubscriptionCyxGSo7PFQueryCyxG_xmtSo8PFObjectCRbzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<T where T : ParseCore.PFObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(_:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery6ClientC9subscribe_7handlerxSo7PFQueryCy16PFObjectSubclassQzG_xtAA20SubscriptionHandlingRzlF",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC9subscribe_7handlerxSo7PFQueryCy16PFObjectSubclassQzG_xtAA20SubscriptionHandlingRzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<T where T : TMGParseLiveQuery.SubscriptionHandling>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(_:toQuery:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery6ClientC6update_02toC0yx_So7PFQueryCy16PFObjectSubclassQzGtAA20SubscriptionHandlingRzlF",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC6update_02toC0yx_So7PFQueryCy16PFObjectSubclassQzGtAA20SubscriptionHandlingRzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<T where T : TMGParseLiveQuery.SubscriptionHandling>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)unsubscribeFromQuery:",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC11unsubscribeyySo7PFQueryCySo8PFObjectCGF",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "unsubscribeFromQuery:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(_:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<τ_0_0.PFObjectSubclass>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.PFObjectSubclass"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery6ClientC11unsubscribe_7handlerySo7PFQueryCy16PFObjectSubclassQzG_xtAA20SubscriptionHandlingRzlF",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC11unsubscribe_7handlerySo7PFQueryCy16PFObjectSubclassQzG_xtAA20SubscriptionHandlingRzlF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.SubscriptionHandling>",
+            "sugared_genericSig": "<T where T : TMGParseLiveQuery.SubscriptionHandling>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reconnect",
+            "printedName": "reconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)reconnect",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC9reconnectyyF",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "reconnect",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)disconnect",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC10disconnectyyF",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "disconnect",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TMGParseLiveQuery6ClientC10disconnect10completionyyycSg_tF",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC10disconnect10completionyyycSg_tF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_PF_objc_subscribe",
+            "printedName": "_PF_objc_subscribe(_:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjCCompat_SubscriptionHandling",
+                "printedName": "any TMGParseLiveQuery.ObjCCompat_SubscriptionHandling",
+                "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ObjCCompat_SubscriptionHandling",
+                "printedName": "any TMGParseLiveQuery.ObjCCompat_SubscriptionHandling",
+                "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)subscribeToQuery:withHandler:",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC18_PF_objc_subscribe_7handlerAA31ObjCCompat_SubscriptionHandling_pSo7PFQueryCySo8PFObjectCG_AaF_ptF",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "subscribeToQuery:withHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_PF_objc_subscribe",
+            "printedName": "_PF_objc_subscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)subscribeToQuery:",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC18_PF_objc_subscribeyAA10ObjCCompatV12SubscriptionCSo7PFQueryCySo8PFObjectCGF",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "subscribeToQuery:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_PF_objc_unsubscribe",
+            "printedName": "_PF_objc_unsubscribe(_:subscriptionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ObjCCompat_SubscriptionHandling",
+                "printedName": "any TMGParseLiveQuery.ObjCCompat_SubscriptionHandling",
+                "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@objc(cs)PFLiveQueryClient(im)unsubscribeFromQuery:withHandler:",
+            "mangledName": "$s17TMGParseLiveQuery6ClientC20_PF_objc_unsubscribe_19subscriptionHandlerySo7PFQueryCySo8PFObjectCG_AA31ObjCCompat_SubscriptionHandling_ptF",
+            "moduleName": "TMGParseLiveQuery",
+            "objc_name": "unsubscribeFromQuery:withHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient",
+        "mangledName": "$s17TMGParseLiveQuery6ClientC",
+        "moduleName": "TMGParseLiveQuery",
+        "isOpen": true,
+        "objc_name": "PFLiveQueryClient",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "WebSocketDelegate",
+            "printedName": "WebSocketDelegate",
+            "usr": "s:10Starscream17WebSocketDelegateP",
+            "mangledName": "$s10Starscream17WebSocketDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ParseCore",
+        "printedName": "ParseCore",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "Import",
+        "name": "BoltsSwift",
+        "printedName": "BoltsSwift",
+        "declKind": "Import",
+        "moduleName": "TMGParseLiveQuery"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObjCCompat_SubscriptionHandling",
+        "printedName": "ObjCCompat_SubscriptionHandling",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRecieveEvent",
+            "printedName": "didRecieveEvent(_:event:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "TMGParseLiveQuery.ObjCCompat.Event",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling(im)liveQuery:didRecieveEvent:inClient:",
+            "mangledName": "$s17TMGParseLiveQuery31ObjCCompat_SubscriptionHandlingP15didRecieveEvent_5event6clientySo7PFQueryCySo8PFObjectCG_AA0dE0V0J0CAA6ClientCtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "protocolReq": true,
+            "objc_name": "liveQuery:didRecieveEvent:inClient:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRecieveError",
+            "printedName": "didRecieveError(_:error:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling(im)liveQuery:didEncounterError:inClient:",
+            "mangledName": "$s17TMGParseLiveQuery31ObjCCompat_SubscriptionHandlingP15didRecieveError_5error6clientySo7PFQueryCySo8PFObjectCG_So7NSErrorCAA6ClientCtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "protocolReq": true,
+            "objc_name": "liveQuery:didEncounterError:inClient:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didSubscribe",
+            "printedName": "didSubscribe(_:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling(im)liveQuery:didSubscribeInClient:",
+            "mangledName": "$s17TMGParseLiveQuery31ObjCCompat_SubscriptionHandlingP12didSubscribe_6clientySo7PFQueryCySo8PFObjectCG_AA6ClientCtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "protocolReq": true,
+            "objc_name": "liveQuery:didSubscribeInClient:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUnsubscribe",
+            "printedName": "didUnsubscribe(_:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PFQuery",
+                "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "usr": "c:objc(cs)PFQuery"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Client",
+                "printedName": "TMGParseLiveQuery.Client",
+                "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling(im)liveQuery:didUnsubscribeInClient:",
+            "mangledName": "$s17TMGParseLiveQuery31ObjCCompat_SubscriptionHandlingP14didUnsubscribe_6clientySo7PFQueryCySo8PFObjectCG_AA6ClientCtF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "sugared_genericSig": "<Self where Self : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling>",
+            "protocolReq": true,
+            "objc_name": "liveQuery:didUnsubscribeInClient:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling",
+        "mangledName": "$s17TMGParseLiveQuery31ObjCCompat_SubscriptionHandlingP",
+        "moduleName": "TMGParseLiveQuery",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "PFLiveQuerySubscriptionHandling",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PFLiveQueryEventType",
+        "printedName": "PFLiveQueryEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "entered",
+            "printedName": "entered",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMGParseLiveQuery.PFLiveQueryEventType.Type) -> TMGParseLiveQuery.PFLiveQueryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFLiveQueryEventType",
+                        "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType@PFLiveQueryEventTypeEntered",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO7enteredyA2CmF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "left",
+            "printedName": "left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMGParseLiveQuery.PFLiveQueryEventType.Type) -> TMGParseLiveQuery.PFLiveQueryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFLiveQueryEventType",
+                        "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType@PFLiveQueryEventTypeLeft",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO4leftyA2CmF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "created",
+            "printedName": "created",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMGParseLiveQuery.PFLiveQueryEventType.Type) -> TMGParseLiveQuery.PFLiveQueryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFLiveQueryEventType",
+                        "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType@PFLiveQueryEventTypeCreated",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO7createdyA2CmF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "updated",
+            "printedName": "updated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMGParseLiveQuery.PFLiveQueryEventType.Type) -> TMGParseLiveQuery.PFLiveQueryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFLiveQueryEventType",
+                        "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType@PFLiveQueryEventTypeUpdated",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO7updatedyA2CmF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "deleted",
+            "printedName": "deleted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMGParseLiveQuery.PFLiveQueryEventType.Type) -> TMGParseLiveQuery.PFLiveQueryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFLiveQueryEventType",
+                        "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType@PFLiveQueryEventTypeDeleted",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO7deletedyA2CmF",
+            "moduleName": "TMGParseLiveQuery",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TMGParseLiveQuery.PFLiveQueryEventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17TMGParseLiveQuery06PFLiveC9EventTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "TMGParseLiveQuery",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TMGParseLiveQuery06PFLiveC9EventTypeO8rawValueSivp",
+            "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO8rawValueSivp",
+            "moduleName": "TMGParseLiveQuery",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TMGParseLiveQuery06PFLiveC9EventTypeO8rawValueSivg",
+                "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO8rawValueSivg",
+                "moduleName": "TMGParseLiveQuery",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType",
+        "mangledName": "$s17TMGParseLiveQuery06PFLiveC9EventTypeO",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObjCCompat",
+        "printedName": "ObjCCompat",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Event",
+            "printedName": "Event",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFLiveQueryEventType",
+                    "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                    "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC4typeAA06PFLivecF4TypeOvp",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV5EventC4typeAA06PFLivecF4TypeOvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFLiveQueryEventType",
+                        "printedName": "TMGParseLiveQuery.PFLiveQueryEventType",
+                        "usr": "c:@M@TMGParseLiveQuery@E@PFLiveQueryEventType"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC4typeAA06PFLivecF4TypeOvg",
+                    "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV5EventC4typeAA06PFLivecF4TypeOvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "object",
+                "printedName": "object",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFObject",
+                    "printedName": "ParseCore.PFObject",
+                    "usr": "c:objc(cs)PFObject"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC6objectSo8PFObjectCvp",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV5EventC6objectSo8PFObjectCvp",
+                "moduleName": "TMGParseLiveQuery",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFObject",
+                        "printedName": "ParseCore.PFObject",
+                        "usr": "c:objc(cs)PFObject"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC6objectSo8PFObjectCvg",
+                    "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV5EventC6objectSo8PFObjectCvg",
+                    "moduleName": "TMGParseLiveQuery",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Event",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Event",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventCAEycfc",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV5EventCAEycfc",
+                "moduleName": "TMGParseLiveQuery",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC",
+            "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV5EventC",
+            "moduleName": "TMGParseLiveQuery",
+            "isOpen": true,
+            "objc_name": "PFLiveQueryEvent",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Subscription",
+            "printedName": "Subscription",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "addSubscribeHandler",
+                "printedName": "addSubscribeHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFQuery",
+                        "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ],
+                        "usr": "c:objc(cs)PFQuery"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC19addSubscribeHandleryAEySo7PFQueryCySo8PFObjectCGXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC19addSubscribeHandleryAEySo7PFQueryCySo8PFObjectCGXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addSubscribeHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addUnsubscribeHandler",
+                "printedName": "addUnsubscribeHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFQuery",
+                        "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ],
+                        "usr": "c:objc(cs)PFQuery"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC21addUnsubscribeHandleryAEySo7PFQueryCySo8PFObjectCGXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC21addUnsubscribeHandleryAEySo7PFQueryCySo8PFObjectCGXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addUnsubscribeHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addErrorHandler",
+                "printedName": "addErrorHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, Foundation.NSError)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addErrorHandleryAEySo7PFQueryCySo8PFObjectCG_So7NSErrorCtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addErrorHandleryAEySo7PFQueryCySo8PFObjectCG_So7NSErrorCtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addErrorHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addEventHandler",
+                "printedName": "addEventHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, TMGParseLiveQuery.ObjCCompat.Event) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, TMGParseLiveQuery.ObjCCompat.Event)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Event",
+                            "printedName": "TMGParseLiveQuery.ObjCCompat.Event",
+                            "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addEventHandleryAEySo7PFQueryCySo8PFObjectCG_AC0H0CtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addEventHandleryAEySo7PFQueryCySo8PFObjectCG_AC0H0CtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addEventHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addEnterHandler",
+                "printedName": "addEnterHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addEnterHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addEnterHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addEnterHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addLeaveHandler",
+                "printedName": "addLeaveHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addLeaveHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15addLeaveHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addLeaveHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addCreateHandler",
+                "printedName": "addCreateHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC16addCreateHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC16addCreateHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addCreateHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addUpdateHandler",
+                "printedName": "addUpdateHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC16addUpdateHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC16addUpdateHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addUpdateHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "addDeleteHandler",
+                "printedName": "addDeleteHandler(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFQuery",
+                            "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PFObject",
+                                "printedName": "ParseCore.PFObject",
+                                "usr": "c:objc(cs)PFObject"
+                              }
+                            ],
+                            "usr": "c:objc(cs)PFQuery"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PFObject",
+                            "printedName": "ParseCore.PFObject",
+                            "usr": "c:objc(cs)PFObject"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC16addDeleteHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC16addDeleteHandleryAEySo7PFQueryCySo8PFObjectCG_AJtXLF",
+                "moduleName": "TMGParseLiveQuery",
+                "isOpen": true,
+                "objc_name": "addDeleteHandler:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionCAEycfc",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionCAEycfc",
+                "moduleName": "TMGParseLiveQuery",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "didRecieveEvent",
+                "printedName": "didRecieveEvent(_:event:client:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFQuery",
+                    "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFObject",
+                        "printedName": "ParseCore.PFObject",
+                        "usr": "c:objc(cs)PFObject"
+                      }
+                    ],
+                    "usr": "c:objc(cs)PFQuery"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Event",
+                    "printedName": "TMGParseLiveQuery.ObjCCompat.Event",
+                    "usr": "s:17TMGParseLiveQuery10ObjCCompatV5EventC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Client",
+                    "printedName": "TMGParseLiveQuery.Client",
+                    "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15didRecieveEvent_5event6clientySo7PFQueryCySo8PFObjectCG_AC0I0CAA6ClientCtF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15didRecieveEvent_5event6clientySo7PFQueryCySo8PFObjectCG_AC0I0CAA6ClientCtF",
+                "moduleName": "TMGParseLiveQuery",
+                "objc_name": "liveQuery:didRecieveEvent:inClient:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "didRecieveError",
+                "printedName": "didRecieveError(_:error:client:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFQuery",
+                    "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFObject",
+                        "printedName": "ParseCore.PFObject",
+                        "usr": "c:objc(cs)PFObject"
+                      }
+                    ],
+                    "usr": "c:objc(cs)PFQuery"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Client",
+                    "printedName": "TMGParseLiveQuery.Client",
+                    "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15didRecieveError_5error6clientySo7PFQueryCySo8PFObjectCG_So7NSErrorCAA6ClientCtF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC15didRecieveError_5error6clientySo7PFQueryCySo8PFObjectCG_So7NSErrorCAA6ClientCtF",
+                "moduleName": "TMGParseLiveQuery",
+                "objc_name": "liveQuery:didEncounterError:inClient:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "didSubscribe",
+                "printedName": "didSubscribe(_:client:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFQuery",
+                    "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFObject",
+                        "printedName": "ParseCore.PFObject",
+                        "usr": "c:objc(cs)PFObject"
+                      }
+                    ],
+                    "usr": "c:objc(cs)PFQuery"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Client",
+                    "printedName": "TMGParseLiveQuery.Client",
+                    "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC12didSubscribe_6clientySo7PFQueryCySo8PFObjectCG_AA6ClientCtF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC12didSubscribe_6clientySo7PFQueryCySo8PFObjectCG_AA6ClientCtF",
+                "moduleName": "TMGParseLiveQuery",
+                "objc_name": "liveQuery:didSubscribeInClient:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "didUnsubscribe",
+                "printedName": "didUnsubscribe(_:client:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PFQuery",
+                    "printedName": "ParseCore.PFQuery<ParseCore.PFObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PFObject",
+                        "printedName": "ParseCore.PFObject",
+                        "usr": "c:objc(cs)PFObject"
+                      }
+                    ],
+                    "usr": "c:objc(cs)PFQuery"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Client",
+                    "printedName": "TMGParseLiveQuery.Client",
+                    "usr": "c:@M@TMGParseLiveQuery@objc(cs)PFLiveQueryClient"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC14didUnsubscribe_6clientySo7PFQueryCySo8PFObjectCG_AA6ClientCtF",
+                "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC14didUnsubscribe_6clientySo7PFQueryCySo8PFObjectCG_AA6ClientCtF",
+                "moduleName": "TMGParseLiveQuery",
+                "objc_name": "liveQuery:didUnsubscribeInClient:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC",
+            "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV12SubscriptionC",
+            "moduleName": "TMGParseLiveQuery",
+            "isOpen": true,
+            "objc_name": "PFLiveQuerySubscription",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "ObjCCompat_SubscriptionHandling",
+                "printedName": "ObjCCompat_SubscriptionHandling",
+                "usr": "c:@M@TMGParseLiveQuery@objc(pl)PFLiveQuerySubscriptionHandling",
+                "mangledName": "$s17TMGParseLiveQuery31ObjCCompat_SubscriptionHandlingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17TMGParseLiveQuery10ObjCCompatV",
+        "mangledName": "$s17TMGParseLiveQuery10ObjCCompatV",
+        "moduleName": "TMGParseLiveQuery",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PFQuery",
+        "printedName": "PFQuery",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "_PF_objc_subscribe",
+            "printedName": "_PF_objc_subscribe()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "TMGParseLiveQuery.ObjCCompat.Subscription",
+                "usr": "s:17TMGParseLiveQuery10ObjCCompatV12SubscriptionC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TMGParseLiveQuery@@objc(cs)PFQuery(im)subscribe",
+            "mangledName": "$sSo7PFQueryC17TMGParseLiveQueryE18_PF_objc_subscribeAC10ObjCCompatV12SubscriptionCyF",
+            "moduleName": "TMGParseLiveQuery",
+            "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+            "sugared_genericSig": "<PFGenericObject where PFGenericObject : ParseCore.PFObject>",
+            "objc_name": "subscribe",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)PFQuery",
+        "moduleName": "ParseCore",
+        "genericSig": "<τ_0_0 where τ_0_0 : ParseCore.PFObject>",
+        "sugared_genericSig": "<PFGenericObject where PFGenericObject : ParseCore.PFObject>",
+        "isOpen": true,
+        "objc_name": "PFQuery",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Subscription.swift",
+      "kind": "Array",
+      "offset": 4491,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Subscription.swift",
+      "kind": "Array",
+      "offset": 4564,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Subscription.swift",
+      "kind": "Array",
+      "offset": 4631,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Subscription.swift",
+      "kind": "Array",
+      "offset": 4700,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Internal\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 3574,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Internal\/QueryEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Internal\/QueryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 3677,
+      "length": 32,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX\""
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "BooleanLiteral",
+      "offset": 937,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "BooleanLiteral",
+      "offset": 985,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1054,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 21,
+      "value": "\"com.parse.livequery\""
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "Array",
+      "offset": 1704,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3471,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "StringLiteral",
+      "offset": 3684,
+      "length": 36,
+      "value": "\"com.parse.livequery.client.storage\""
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/Client.swift",
+      "kind": "Array",
+      "offset": 3734,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3085,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3164,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3252,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3346,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3085,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3164,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3252,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3346,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "StringLiteral",
+      "offset": 3680,
+      "length": 5,
+      "value": "\"TMGParseLiveQuery.Event\""
+    },
+    {
+      "filePath": "\/Users\/jlaudenslayer\/Documents\/ParseLiveQuery-iOS-OSX\/Sources\/ParseLiveQuery\/ObjCCompat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9476,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

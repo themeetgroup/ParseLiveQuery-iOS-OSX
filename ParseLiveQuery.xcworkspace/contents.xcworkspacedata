@@ -4,14 +4,4 @@
    <FileRef
       location = "group:Sources/ParseLiveQuery.xcodeproj">
    </FileRef>
-   <Group
-      location = "container:"
-      name = "Examples">
-      <FileRef
-         location = "group:Examples/LiveQueryDemo-ObjC.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Examples/LiveQueryDemo.xcodeproj">
-      </FileRef>
-   </Group>
 </Workspace>

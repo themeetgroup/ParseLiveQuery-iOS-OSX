@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import Parse
+import ParseCore
 import Starscream
 import BoltsSwift
 
@@ -172,7 +172,6 @@ extension Client: WebSocketDelegate {
         case .ping(_):
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Received ping but we don't handle it...") }
             startPingTimer()
-        }
         case .peerClosed:
             isConnecting = false
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: WebSocket peerClosed...") }

@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import Parse
+import ParseCore
 import BoltsSwift
 import Starscream
 
@@ -308,11 +308,9 @@ class PLQDisconnectingSocket: WebSocketDelegate, Hashable {
             completion(self)
         case .cancelled:
             completion(self)
-        }
         case .peerClosed:
             completion(self)
         }
-
     }
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
