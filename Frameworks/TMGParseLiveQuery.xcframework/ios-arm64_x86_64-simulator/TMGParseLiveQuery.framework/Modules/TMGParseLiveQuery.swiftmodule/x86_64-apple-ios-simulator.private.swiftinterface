@@ -1,0 +1,157 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TMGParseLiveQuery
+import BoltsSwift
+import Foundation
+import ParseCore
+import Starscream
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol SubscriptionHandling : AnyObject {
+  associatedtype PFObjectSubclass : ParseCore.PFObject
+  func didReceive(_ event: TMGParseLiveQuery.Event<Self.PFObjectSubclass>, forQuery query: ParseCore.PFQuery<Self.PFObjectSubclass>, inClient client: TMGParseLiveQuery.Client)
+  func didEncounter(_ error: any Swift.Error, forQuery query: ParseCore.PFQuery<Self.PFObjectSubclass>, inClient client: TMGParseLiveQuery.Client)
+  func didSubscribe(toQuery query: ParseCore.PFQuery<Self.PFObjectSubclass>, inClient client: TMGParseLiveQuery.Client)
+  func didUnsubscribe(fromQuery query: ParseCore.PFQuery<Self.PFObjectSubclass>, inClient client: TMGParseLiveQuery.Client)
+}
+public enum Event<T> where T : ParseCore.PFObject {
+  case entered(T)
+  case left(T)
+  case created(T)
+  case updated(T)
+  case deleted(T)
+}
+open class Subscription<T> : TMGParseLiveQuery.SubscriptionHandling where T : ParseCore.PFObject {
+  public init()
+  @discardableResult
+  open func handleError(_ handler: @escaping (ParseCore.PFQuery<T>, any Swift.Error) -> Swift.Void) -> TMGParseLiveQuery.Subscription<T>
+  @discardableResult
+  open func handleEvent(_ handler: @escaping (ParseCore.PFQuery<T>, TMGParseLiveQuery.Event<T>) -> Swift.Void) -> TMGParseLiveQuery.Subscription<T>
+  @discardableResult
+  open func handleSubscribe(_ handler: @escaping (ParseCore.PFQuery<T>) -> Swift.Void) -> TMGParseLiveQuery.Subscription<T>
+  @discardableResult
+  open func handleUnsubscribe(_ handler: @escaping (ParseCore.PFQuery<T>) -> Swift.Void) -> TMGParseLiveQuery.Subscription<T>
+  public typealias PFObjectSubclass = T
+  open func didReceive(_ event: TMGParseLiveQuery.Event<TMGParseLiveQuery.Subscription<T>.PFObjectSubclass>, forQuery query: ParseCore.PFQuery<T>, inClient client: TMGParseLiveQuery.Client)
+  open func didEncounter(_ error: any Swift.Error, forQuery query: ParseCore.PFQuery<T>, inClient client: TMGParseLiveQuery.Client)
+  open func didSubscribe(toQuery query: ParseCore.PFQuery<T>, inClient client: TMGParseLiveQuery.Client)
+  open func didUnsubscribe(fromQuery query: ParseCore.PFQuery<T>, inClient client: TMGParseLiveQuery.Client)
+  @objc deinit
+}
+extension TMGParseLiveQuery.Subscription {
+  @discardableResult
+  public func handle<E>(_ errorType: E.Type = E.self, _ handler: @escaping (ParseCore.PFQuery<T>, E) -> Swift.Void) -> TMGParseLiveQuery.Subscription<T> where E : Swift.Error
+  @discardableResult
+  public func handle(_ eventType: @escaping (T) -> TMGParseLiveQuery.Event<T>, _ handler: @escaping (ParseCore.PFQuery<T>, T) -> Swift.Void) -> TMGParseLiveQuery.Subscription<T>
+}
+extension TMGParseLiveQuery.Client : Starscream.WebSocketDelegate {
+  public func didReceive(event: Starscream.WebSocketEvent, client: any Starscream.WebSocketClient)
+}
+public struct LiveQueryErrors {
+  public struct InvalidResponseError : Swift.Error {
+    public let response: Swift.String
+  }
+  public struct InvalidQueryError : Swift.Error {
+  }
+  public struct InvalidJSONError : Swift.Error {
+    public let json: [Swift.String : Swift.AnyObject]
+    public let expectedKey: Swift.String
+  }
+  public struct InvalidJSONObject : Swift.Error {
+    public let json: [Swift.String : Swift.AnyObject]
+    public let details: Swift.String
+  }
+  public struct ServerReportedError : Swift.Error {
+    public let code: Swift.Int
+    public let error: Swift.String
+    public let reconnect: Swift.Bool
+  }
+}
+@_inheritsConvenienceInitializers @objc(PFLiveQueryClient) open class Client : ObjectiveC.NSObject {
+  public var shouldPrintWebSocketLog: Swift.Bool
+  public var shouldPrintWebSocketTrace: Swift.Bool
+  public var userDisconnected: Swift.Bool
+  public var pingTimerDelayMs: Swift.Int?
+  @objc override convenience dynamic public init()
+  @objc(initWithServer:applicationId:clientKey:) public init(server: Swift.String, applicationId: Swift.String? = nil, clientKey: Swift.String? = nil)
+  @objc deinit
+}
+extension TMGParseLiveQuery.Client {
+  @objc(sharedClient) public static var shared: TMGParseLiveQuery.Client! {
+    @objc get
+    @objc set
+  }
+}
+extension TMGParseLiveQuery.Client {
+  public func subscribe<T>(_ query: ParseCore.PFQuery<T>, subclassType: T.Type = T.self) -> TMGParseLiveQuery.Subscription<T> where T : ParseCore.PFObject
+  public func subscribe<T>(_ query: ParseCore.PFQuery<T.PFObjectSubclass>, handler: T) -> T where T : TMGParseLiveQuery.SubscriptionHandling
+  public func update<T>(_ handler: T, toQuery query: ParseCore.PFQuery<T.PFObjectSubclass>) where T : TMGParseLiveQuery.SubscriptionHandling
+  @objc(unsubscribeFromQuery:) dynamic public func unsubscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>)
+  public func unsubscribe<T>(_ query: ParseCore.PFQuery<T.PFObjectSubclass>, handler: T) where T : TMGParseLiveQuery.SubscriptionHandling
+}
+extension TMGParseLiveQuery.Client {
+  @objc(reconnect) dynamic public func reconnect()
+  @objc(disconnect) dynamic public func disconnect()
+  public func disconnect(completion: (() -> Swift.Void)?)
+}
+@objc(PFLiveQuerySubscriptionHandling) public protocol ObjCCompat_SubscriptionHandling {
+  @objc(liveQuery:didRecieveEvent:inClient:) optional func didRecieveEvent(_ query: ParseCore.PFQuery<ParseCore.PFObject>, event: TMGParseLiveQuery.ObjCCompat.Event, client: TMGParseLiveQuery.Client)
+  @objc(liveQuery:didEncounterError:inClient:) optional func didRecieveError(_ query: ParseCore.PFQuery<ParseCore.PFObject>, error: Foundation.NSError, client: TMGParseLiveQuery.Client)
+  @objc(liveQuery:didSubscribeInClient:) optional func didSubscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>, client: TMGParseLiveQuery.Client)
+  @objc(liveQuery:didUnsubscribeInClient:) optional func didUnsubscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>, client: TMGParseLiveQuery.Client)
+}
+@objc public enum PFLiveQueryEventType : Swift.Int {
+  case entered
+  case left
+  case created
+  case updated
+  case deleted
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct ObjCCompat {
+  @_hasMissingDesignatedInitializers @objc(PFLiveQueryEvent) open class Event : ObjectiveC.NSObject {
+    @objc final public let type: TMGParseLiveQuery.PFLiveQueryEventType
+    @objc final public let object: ParseCore.PFObject
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @objc(PFLiveQuerySubscription) open class Subscription : ObjectiveC.NSObject {
+    public typealias SubscribeHandler = @convention(block) (ParseCore.PFQuery<ParseCore.PFObject>) -> Swift.Void
+    public typealias ErrorHandler = @convention(block) (ParseCore.PFQuery<ParseCore.PFObject>, Foundation.NSError) -> Swift.Void
+    public typealias EventHandler = @convention(block) (ParseCore.PFQuery<ParseCore.PFObject>, TMGParseLiveQuery.ObjCCompat.Event) -> Swift.Void
+    public typealias ObjectHandler = @convention(block) (ParseCore.PFQuery<ParseCore.PFObject>, ParseCore.PFObject) -> Swift.Void
+    @objc(addSubscribeHandler:) open func addSubscribeHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.SubscribeHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addUnsubscribeHandler:) open func addUnsubscribeHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.SubscribeHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addErrorHandler:) open func addErrorHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.ErrorHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addEventHandler:) open func addEventHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.EventHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addEnterHandler:) open func addEnterHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.ObjectHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addLeaveHandler:) open func addLeaveHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.ObjectHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addCreateHandler:) open func addCreateHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.ObjectHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addUpdateHandler:) open func addUpdateHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.ObjectHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc(addDeleteHandler:) open func addDeleteHandler(_ handler: @escaping TMGParseLiveQuery.ObjCCompat.Subscription.ObjectHandler) -> TMGParseLiveQuery.ObjCCompat.Subscription
+    @objc override dynamic public init()
+    @objc deinit
+  }
+}
+extension TMGParseLiveQuery.ObjCCompat.Subscription : TMGParseLiveQuery.ObjCCompat_SubscriptionHandling {
+  @objc dynamic public func didRecieveEvent(_ query: ParseCore.PFQuery<ParseCore.PFObject>, event: TMGParseLiveQuery.ObjCCompat.Event, client: TMGParseLiveQuery.Client)
+  @objc dynamic public func didRecieveError(_ query: ParseCore.PFQuery<ParseCore.PFObject>, error: Foundation.NSError, client: TMGParseLiveQuery.Client)
+  @objc dynamic public func didSubscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>, client: TMGParseLiveQuery.Client)
+  @objc dynamic public func didUnsubscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>, client: TMGParseLiveQuery.Client)
+}
+extension TMGParseLiveQuery.Client {
+  @objc(subscribeToQuery:withHandler:) dynamic public func _PF_objc_subscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>, handler: any TMGParseLiveQuery.ObjCCompat_SubscriptionHandling) -> any TMGParseLiveQuery.ObjCCompat_SubscriptionHandling
+  @objc(subscribeToQuery:) dynamic public func _PF_objc_subscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>) -> TMGParseLiveQuery.ObjCCompat.Subscription
+  @objc(unsubscribeFromQuery:withHandler:) dynamic public func _PF_objc_unsubscribe(_ query: ParseCore.PFQuery<ParseCore.PFObject>, subscriptionHandler: any TMGParseLiveQuery.ObjCCompat_SubscriptionHandling)
+}
+extension ParseCore.PFQuery {
+  @objc(subscribe) dynamic public func _PF_objc_subscribe() -> TMGParseLiveQuery.ObjCCompat.Subscription
+}
+extension TMGParseLiveQuery.PFLiveQueryEventType : Swift.Equatable {}
+extension TMGParseLiveQuery.PFLiveQueryEventType : Swift.Hashable {}
+extension TMGParseLiveQuery.PFLiveQueryEventType : Swift.RawRepresentable {}

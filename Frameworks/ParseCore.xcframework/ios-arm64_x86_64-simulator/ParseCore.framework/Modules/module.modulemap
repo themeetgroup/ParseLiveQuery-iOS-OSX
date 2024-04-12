@@ -1,0 +1,6 @@
+framework module ParseCore {
+  umbrella header "ParseCore.h"
+  export *
+
+  module * { export * }
+}
