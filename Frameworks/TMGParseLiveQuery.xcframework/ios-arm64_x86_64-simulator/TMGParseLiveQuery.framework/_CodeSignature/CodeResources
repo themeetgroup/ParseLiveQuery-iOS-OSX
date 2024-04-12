@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Bolts.framework/Bolts</key>
+		<data>
+		LfhLHLJ3uAzMo1wuLciyoGDUvyM=
+		</data>
+		<key>Frameworks/Bolts.framework/Info.plist</key>
+		<data>
+		IuBKzt4is0kDjYHgaR2fioNwgnI=
+		</data>
+		<key>Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
+		<data>
+		8cYR5d0dhpt8miU9JVfG3s8HCUU=
+		</data>
 		<key>Frameworks/BoltsSwift.framework/BoltsSwift</key>
 		<data>
 		XU/AA7Hc4QXlGr/pCXgI2hjD1vI=
@@ -16,29 +28,17 @@
 		<data>
 		KHokhfQHC2Fmfc1FhfBmnb5i/0Q=
 		</data>
-		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Bolts</key>
-		<data>
-		b1kaZihGVYOv7J4la8IN6enANVI=
-		</data>
-		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Info.plist</key>
-		<data>
-		IuBKzt4is0kDjYHgaR2fioNwgnI=
-		</data>
-		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
-		<data>
-		bR2O6u+WLs3IF9evkPzggVrwffQ=
-		</data>
 		<key>Frameworks/ParseCore.framework/Info.plist</key>
 		<data>
 		UvsKHPA+GhvKimVgHfcMyKJyPzU=
 		</data>
 		<key>Frameworks/ParseCore.framework/ParseCore</key>
 		<data>
-		t2kAJ7Q5Td7yboAjm3KtdB+skW0=
+		9YMdFswjeFgYXQBz70AbBs24hhc=
 		</data>
 		<key>Frameworks/ParseCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		CGRmH58ZgLHO5Faj3qFcgaIzSWQ=
+		Q1ovv0asHyCs5wMtreMknomXZjI=
 		</data>
 		<key>Frameworks/ParseCore.framework/en.lproj/Parse.strings</key>
 		<dict>
@@ -107,7 +107,7 @@
 		</data>
 		<key>Project.rb</key>
 		<data>
-		vJuKrpmK/XQ6bfV82t7VOnllLbc=
+		WS9dU31QgCq6u/V3h6ZRIupf0sU=
 		</data>
 		<key>build-dependencies.sh</key>
 		<data>
@@ -132,6 +132,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Bolts.framework/Bolts</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qv+2Qcl2DWL2K0foz3R6zwMBzqJOnoZunPzAhXrCzIo=
+			</data>
+		</dict>
+		<key>Frameworks/Bolts.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AE2+JhDGfk9hvxsAf0yrJtHB+y/STHu8FreLgPjsAxU=
+			</data>
+		</dict>
+		<key>Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			unk+OLWj1pm/J0jALyL2EDds7O/u8LY27Ft++5teXqk=
+			</data>
+		</dict>
 		<key>Frameworks/BoltsSwift.framework/BoltsSwift</key>
 		<dict>
 			<key>hash2</key>
@@ -153,27 +174,6 @@
 			4LUonMma3QDq8R306cUwSbnUW5mHDeqtmPjOGO3NCG0=
 			</data>
 		</dict>
-		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Bolts</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c0yvPNBFG0pceC3NzdG58niSILRcqt4tnBo4LkGhFjU=
-			</data>
-		</dict>
-		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AE2+JhDGfk9hvxsAf0yrJtHB+y/STHu8FreLgPjsAxU=
-			</data>
-		</dict>
-		<key>Frameworks/ParseCore.framework/Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PWgRCxr4yFJx/LPO4QiPeBkD3DXgX1x9+Cgo2PuXpYg=
-			</data>
-		</dict>
 		<key>Frameworks/ParseCore.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lsmwEpUR+PkGioqKWgHt8jiNzqCRmNo/J0IozzfrtpA=
+			f318+YM7I0xhJUeYot2p3onldzh8iSEKxyuyx6Guj6w=
 			</data>
 		</dict>
 		<key>Frameworks/ParseCore.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QXRZ5ll1LDMQNHOWDqg0kPVIIYir+hp92f1A4m/SCH8=
+			T79oxqLGjt4TYEzOb0jnMayUM7sgeOmxnQ7e1sn6G9c=
 			</data>
 		</dict>
 		<key>Frameworks/ParseCore.framework/en.lproj/Parse.strings</key>
@@ -299,7 +299,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivzz2qjUxIpf4MmsRGHAIK4tLK2AhN8N0X+v1TK5PHY=
+			QVBHVdTm3+4+SNVyhbCqInU0S57V9tL7+49snPrSAZE=
 			</data>
 		</dict>
 		<key>build-dependencies.sh</key>

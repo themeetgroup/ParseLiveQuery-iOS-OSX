@@ -14,10 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  PFFileDataStream is an NSStream proxy which won't read the last byte of a file until the downlaod has finished.
 
- When downloading a file stream via `-[PFFileObject getDataDownloadStreamInBackground]`, we need to be able to read and write
+ When downloading a file stream via `-[PFFileObject getDataDownloadStreamInBackground]`, we need to be able to read and write 
  to the same file on disk concurrently.
-
- NSInputStream closes itself as soon as it hits EOF, so this class wraps an underlying NSInputStream and stops the
+ 
+ NSInputStream closes itself as soon as it hits EOF, so this class wraps an underlying NSInputStream and stops the 
  stream from closing until after writing has finished.
  */
 @interface PFFileDataStream : NSProxy

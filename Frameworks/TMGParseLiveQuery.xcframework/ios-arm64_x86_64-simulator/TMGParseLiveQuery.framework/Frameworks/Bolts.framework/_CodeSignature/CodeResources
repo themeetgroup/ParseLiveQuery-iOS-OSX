@@ -6,41 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		UvsKHPA+GhvKimVgHfcMyKJyPzU=
-		</data>
-		<key>en.lproj/Parse.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RZZ6w6Dws8Fx4uI6EEhMzZK4D+8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>third_party_licenses.txt</key>
-		<data>
-		X8ZDHP/l5HrQbhsUNIDgPqBqqMw=
+		IuBKzt4is0kDjYHgaR2fioNwgnI=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>en.lproj/Parse.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vlgnkcd6A6wyWBJ6faXflMQ+Mh5+Qsb3IJf98PcKX48=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>third_party_licenses.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k8RyZH5fTJ+Yuaby1Pkwgaaa/jUEyiylF+b/2jkUVn4=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
