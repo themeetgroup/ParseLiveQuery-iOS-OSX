@@ -15,7 +15,7 @@ let package = Package(
             targets: ["ParseCoreWrapper"]),
         .library(
             name: "TMGParseLiveQuery",
-            targets: ["TMGParseLiveQueryCoreWrapper"]),
+            targets: ["TMGParseLiveQueryWrapper"]),
     ],
     targets: [
         .target(name: "StarscreamWrapper",
@@ -27,7 +27,7 @@ let package = Package(
                     .target(name: "ParseCore"),
                     .target(name: "Bolts"),
                 ]),
-        .target(name: "TMGParseLiveQueryCoreWrapper",
+        .target(name: "TMGParseLiveQueryWrapper",
                 dependencies: [
                     .target(name: "TMGParseLiveQuery"),
                     .target(name: "BoltsSwift"),
