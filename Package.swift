@@ -9,13 +9,24 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "Starscream",
+            type: .dynamic,
             targets: ["Starscream"]),
         .library(
             name: "ParseCore",
-            targets: ["ParseCore", "Bolts"]),
+            type: .dynamic,
+            targets: ["ParseCore"]),
+        .library(
+            name: "Bolts",
+            type: .dynamic,
+            targets: ["Bolts"]),
         .library(
             name: "TMGParseLiveQuery",
-            targets: ["TMGParseLiveQuery", "BoltsSwift"]),
+            type: .dynamic,
+            targets: ["TMGParseLiveQuery"]),
+        .library(
+            name: "BoltsSwift",
+            type: .dynamic,
+            targets: ["BoltsSwift"]),
     ],
     targets: [
         .binaryTarget(
