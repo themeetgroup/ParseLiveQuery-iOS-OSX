@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.swift_version = '5.0'
 
-  s.deployment_target = '13.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Sources/ParseLiveQuery/**/*.{swift,h}'
   s.module_name = 'TMGParseLiveQuery'
