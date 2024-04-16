@@ -27,4 +27,11 @@ Pod::Spec.new do |s|
   s.preserve_path = 'Frameworks/*'
   s.dependency 'Starscream', '4.0.6'
 
+  s.frameworks = 'AudioToolbox',
+                  'SystemConfiguration',
+                  'Security'
+
+  s.libraries = 'sqlite3',
+                'icucore'
+
 end
