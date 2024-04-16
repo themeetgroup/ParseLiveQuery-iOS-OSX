@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.vendored_framework = 'Frameworks/Bolts.xcframework',
                           'Frameworks/BoltsSwift.xcframework',
                           'Frameworks/ParseCore.xcframework',
-                          'TMGParseLiveQuery.xcframework'
+                          'TMGParseLiveQuery.xcframework',
+                          'Starscream.xcframework'
 
   s.preserve_path = 'Frameworks/*'
 
