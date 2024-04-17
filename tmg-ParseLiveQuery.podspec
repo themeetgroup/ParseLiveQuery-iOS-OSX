@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Sources/ParseLiveQuery/**/*.{swift,h}'
   s.module_name = 'TMGParseLiveQuery'
 
   s.vendored_framework = 'Frameworks/Bolts.xcframework',
