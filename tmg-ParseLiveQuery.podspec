@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/ParseLiveQuery/**/*.{swift,h}'
   s.module_name = 'TMGParseLiveQuery'
 
-  s.dependency 'Parse', '~> 1.19.4'
+  s.dependency 'ParseCore', '~> 1.19.4'
   s.dependency 'Bolts-Swift', '~> 1.5.0'
   s.dependency 'Starscream', '~> 4.0.4'
 
