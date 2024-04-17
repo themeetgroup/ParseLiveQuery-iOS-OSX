@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'TMGParseLiveQuery' do |parse|
     parse.preserve_path = 'Frameworks/*'
-    parse.dependency 'Frameworks/Starscream'
+    parse.dependency 'tmg-ParseLiveQuery/Starscream'
     parse.vendored_frameworks = 'Frameworks/Bolts.xcframework',
                                 'Frameworks/BoltsSwift.xcframework',
                                 'Frameworks/ParseCore.xcframework',
