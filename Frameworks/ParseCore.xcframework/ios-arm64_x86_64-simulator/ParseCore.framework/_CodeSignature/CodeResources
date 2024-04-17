@@ -170,7 +170,7 @@
 		</data>
 		<key>Headers/Parse.h</key>
 		<data>
-		5yEMwJ99PNE94d3l0IyZ3CbK9Zg=
+		mol9SH5QlI3/Gxs/mrhbw+z0/AU=
 		</data>
 		<key>Headers/ParseClientConfiguration.h</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Headers/ParseCore.h</key>
 		<data>
-		6QCse/yroWcxF9nLicuE14vSFfk=
+		Sr7yMJhsm0zMlUIrQELGem5QKmo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -298,7 +298,7 @@
 		</data>
 		<key>PrivateHeaders/PFCoreManager.h</key>
 		<data>
-		FMc8nIZzeV0gR0y53lEKen/rY18=
+		b/bYZulQ3Szdi7AOkGgHM9rxTWk=
 		</data>
 		<key>PrivateHeaders/PFCurrentConfigController.h</key>
 		<data>
@@ -558,7 +558,7 @@
 		</data>
 		<key>PrivateHeaders/PFObjectSubclassingController.h</key>
 		<data>
-		KUVbTp74XuJ2T/+H4Cniam3R5mM=
+		cuFNvQ0HlA9R3VzddNwby2Lxyps=
 		</data>
 		<key>PrivateHeaders/PFObjectUtilities.h</key>
 		<data>
@@ -1367,11 +1367,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5yEMwJ99PNE94d3l0IyZ3CbK9Zg=
+			mol9SH5QlI3/Gxs/mrhbw+z0/AU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zpBTf9bdE0+1GxsMtnDWSZ7HeGVAVZYGBE0S4lJaMPU=
+			IR/pxOQKhyuoOVHa9OLAQAQlY9PhrUMs0Q5EjvviDK4=
 			</data>
 		</dict>
 		<key>Headers/ParseClientConfiguration.h</key>
@@ -1389,11 +1389,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6QCse/yroWcxF9nLicuE14vSFfk=
+			Sr7yMJhsm0zMlUIrQELGem5QKmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZUrNp8tbWlXqeMq6H4a2EeVGC0HTlQ1CWm7w3pyqP0=
+			39OHv3uhzmaiiE41Up6nMOVW0M52R3Qc+86/BCo5JmY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1708,11 +1708,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FMc8nIZzeV0gR0y53lEKen/rY18=
+			b/bYZulQ3Szdi7AOkGgHM9rxTWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			C6Uv8r9rCbEpN6wjzyHzKHhX6T8M6U9IwyEgDQZ7Ixg=
+			BzWJ9/eIU7Tn1tDekRC3yUtP4epRZ/oV+vCiPxbuNko=
 			</data>
 		</dict>
 		<key>PrivateHeaders/PFCurrentConfigController.h</key>
@@ -2423,11 +2423,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KUVbTp74XuJ2T/+H4Cniam3R5mM=
+			cuFNvQ0HlA9R3VzddNwby2Lxyps=
 			</data>
 			<key>hash2</key>
 			<data>
-			5m00n9ObpF76uGstfXj3/Y+1+e92raPI2hq5C8ud32o=
+			cr7+BpM2Frwv99595bnTw43tqucl0iJxqZOSOrBDdBg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/PFObjectUtilities.h</key>

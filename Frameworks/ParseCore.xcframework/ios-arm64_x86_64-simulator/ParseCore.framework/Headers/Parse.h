@@ -8,7 +8,6 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <ParseCore/ParseManager.h>
 
 #import <ParseCore/ParseClientConfiguration.h>
 #import <ParseCore/PFACL.h>
@@ -78,7 +77,6 @@ NS_ASSUME_NONNULL_BEGIN
  The `Parse` class contains static functions that handle global configuration for the ParseCore.framework.
  */
 @interface Parse : NSObject
-@property (nonatomic, nullable, readonly, class) ParseManager *currentManager;
 
 ///--------------------------------------
 #pragma mark - Connecting to Parse

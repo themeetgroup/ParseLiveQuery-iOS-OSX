@@ -13,7 +13,6 @@
 @protocol PFSubclassing;
 
 @interface PFObjectSubclassingController : NSObject
-- (void)_rawRegisterSubclass:(Class)kls;
 
 ///--------------------------------------
 #pragma mark - Registration

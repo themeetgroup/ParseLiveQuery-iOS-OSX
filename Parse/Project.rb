@@ -19,17 +19,6 @@ project.targets.each do |target|
                 build_file.settings = { 'ATTRIBUTES' => ['Public']}
             end
         end
-#        framework_ref = group.new_reference("Bolts.xcframework")
-#        framework = target.frameworks_build_phase.add_file_reference(framework_ref)
-#
-#        embed_frameworks_build_phase = project.new(Xcodeproj::Project::Object::PBXCopyFilesBuildPhase)
-#        embed_frameworks_build_phase.name = 'Embed Frameworks'
-#        embeded_framework = embed_frameworks_build_phase.add_file_reference(framework_ref)
-#        embeded_framework.settings = { 'ATTRIBUTES' => ['CodeSignOnCopy'] }
-#        embed_frameworks_build_phase.symbol_dst_subfolder_spec = :frameworks
-#        target.build_phases << embed_frameworks_build_phase
-#
-#        target.dependencies.each { |e| e.remove_from_project }
         project.save
     end
 end

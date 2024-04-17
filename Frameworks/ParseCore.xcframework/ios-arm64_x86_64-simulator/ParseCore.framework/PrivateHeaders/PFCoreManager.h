@@ -70,7 +70,6 @@ PFUserControllerProvider
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
-- (void)rawRegisterSubclass:(Class)kls;
 
 - (instancetype)initWithDataSource:(id<PFCoreManagerDataSource>)dataSource NS_DESIGNATED_INITIALIZER;
 

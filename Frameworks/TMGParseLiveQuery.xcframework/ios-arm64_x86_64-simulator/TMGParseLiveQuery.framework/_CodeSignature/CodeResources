@@ -105,30 +105,6 @@
 		<data>
 		8yghWeYzz8DFtTNvkoXGVQkqG/Y=
 		</data>
-		<key>Project.rb</key>
-		<data>
-		WS9dU31QgCq6u/V3h6ZRIupf0sU=
-		</data>
-		<key>build-dependencies.sh</key>
-		<data>
-		78Tb/ca2tmhux9hphxPtc2z/NB8=
-		</data>
-		<key>build-frameworks.sh</key>
-		<data>
-		wK0N7r2l3jTp590i/KdWiLAJ208=
-		</data>
-		<key>build-parse.sh</key>
-		<data>
-		M6yXiTgsJF72YbRADJIaJW9+cnw=
-		</data>
-		<key>build-xcframework-from-git.sh</key>
-		<data>
-		ls+lBMpV8WKQAxSbY3OW+HebgHQ=
-		</data>
-		<key>build-xcframework-from-pod.sh</key>
-		<data>
-		sYZpLuA1BdJxTCRIW/Sn286SLM0=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -293,48 +269,6 @@
 			<key>hash2</key>
 			<data>
 			+7bb/LBtgpNCr6/CGlXcZZUH33TgD/N8Br8zkW48hFQ=
-			</data>
-		</dict>
-		<key>Project.rb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QVBHVdTm3+4+SNVyhbCqInU0S57V9tL7+49snPrSAZE=
-			</data>
-		</dict>
-		<key>build-dependencies.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1b6hsiHQ642d1KZGIb/EnfWRuKF2bL5NGvQiyV0aM74=
-			</data>
-		</dict>
-		<key>build-frameworks.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/moSfQ1JDpiHusBNjLlts8dtEWY3E/pSQZsCqQqCCGo=
-			</data>
-		</dict>
-		<key>build-parse.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/Sbf7Zeqk0JTDSt7lzuycDRm76wcKGpv9FUMaM+nndc=
-			</data>
-		</dict>
-		<key>build-xcframework-from-git.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MPMUBPfqlnvNa9k9bFZZf6R1j85iM99wa+MepI5nxtE=
-			</data>
-		</dict>
-		<key>build-xcframework-from-pod.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C9+bCRVgkwhOr7WjgmJcxoqmVwqOaPA2DPjc/GKv174=
 			</data>
 		</dict>
 	</dict>

@@ -1,0 +1,33 @@
+# Make subclass registering method public
+cd "Parse/Parse/Internal/Object/Subclassing"
+REPLACE_STRING="@interface PFObjectSubclassingController : NSObject"
+PUBLIC_METHOD="- (void)_rawRegisterSubclass:(Class)kls;"
+NEW_STRING="${REPLACE_STRING}\n${PUBLIC_METHOD}"
+sed -i -e 's/'"${REPLACE_STRING}"'/'"${NEW_STRING}"'/g' PFObjectSubclassingController.h
+cd "${RETURN_DIR}"
+
+# Rename all occurances of _rawRegisterSubclass to rawRegisterSubclass
+find . \( ! -regex '.*/\..*' \) -type f | LC_ALL=C xargs sed -i '' 's;_rawRegisterSubclass;rawRegisterSubclass;g'
+
+# Make ParseManager accessible
+cd "Parse/Parse"
+FOUNDATION_STRING="#import <Foundation/Foundation.h>"
+FOUNDATION_REPLACE_STRING="${FOUNDATION_STRING}\n#import <ParseCore/ParseManager.h>"
+sed -i -e 's;'"${FOUNDATION_STRING}"';'"${FOUNDATION_REPLACE_STRING}"';g' Parse.h
+INTERFACE_STRING="@interface Parse : NSObject"
+INTERFACE_REPLACE_STRING="${INTERFACE_STRING}\n@property (nonatomic, nullable, readonly, class) ParseManager *currentManager;"
+sed -i -e 's.'"${INTERFACE_STRING}"'.'"${INTERFACE_REPLACE_STRING}"'.g' Parse.h
+
+IMP_STRING="@implementation Parse"
+IMP_REPLACE_STRING="${IMP_STRING}\n+ (ParseManager *)currentManager {\nreturn currentParseManager_;\n}"
+sed -i -e 's.'"${IMP_STRING}"'.'"${IMP_REPLACE_STRING}"'.g' Parse.m
+
+cd "Internal"
+INIT_STRING="+ (instancetype)new NS_UNAVAILABLE;"
+INIT_REPLACE_STRING="${INIT_STRING}\n- (void)rawRegisterSubclass:(Class)kls;"
+sed -i -e 's.'"${INIT_STRING}"'.'"${INIT_REPLACE_STRING}"'.g' PFCoreManager.h
+IMP_STRING="@implementation PFCoreManager"
+IMP_REPLACE_STRING="${IMP_STRING}\n- (void)rawRegisterSubclass:(Class)kls {\n[[self objectSubclassingController] _rawRegisterSubclass:kls];\n}"
+sed -i -e 's.'"${IMP_STRING}"'.'"${IMP_REPLACE_STRING}"'.g' PFCoreManager.m
+
+cd "${RETURN_DIR}"

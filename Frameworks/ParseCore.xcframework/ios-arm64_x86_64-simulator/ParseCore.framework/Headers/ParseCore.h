@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <ParseCore/ParseManager.h>
 #import <ParseCore/Parse.h>
 #import <ParseCore/PFCoreManager.h>
 #import <ParseCore/PFEventuallyPin.h>

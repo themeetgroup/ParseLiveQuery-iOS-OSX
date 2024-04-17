@@ -13,7 +13,6 @@
 		F1002FE32BC70083006C0D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1002FE22BC70083006C0D11 /* ContentView.swift */; };
 		F1002FE52BC70084006C0D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1002FE42BC70084006C0D11 /* Assets.xcassets */; };
 		F1002FE82BC70084006C0D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1002FE72BC70084006C0D11 /* Preview Assets.xcassets */; };
-		F147F9892BC98B8600422672 /* Project.rb in Resources */ = {isa = PBXBuildFile; fileRef = F147F9882BC98B8600422672 /* Project.rb */; };
 		F16F580C2BC9CABD002F8EAF /* BoltsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */; };
 		F16F580E2BC9CACC002F8EAF /* BoltsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */; };
 		F16F580F2BC9CACC002F8EAF /* BoltsSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDC2BC987B20082143F /* BoltsSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -24,11 +23,6 @@
 		F16F58152BC9CB14002F8EAF /* ParseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */; };
 		F16F58162BC9CB14002F8EAF /* ParseCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDF2BC987B20082143F /* ParseCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F1ABBDE22BC987B20082143F /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDD2BC987B20082143F /* Starscream.xcframework */; };
-		F1ABBDED2BC987D10082143F /* build-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDE72BC987D10082143F /* build-frameworks.sh */; };
-		F1ABBDEE2BC987D10082143F /* build-dependencies.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDE82BC987D10082143F /* build-dependencies.sh */; };
-		F1ABBDEF2BC987D10082143F /* build-xcframework-from-git.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDE92BC987D10082143F /* build-xcframework-from-git.sh */; };
-		F1ABBDF12BC987D10082143F /* build-parse.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDEB2BC987D10082143F /* build-parse.sh */; };
-		F1ABBDF22BC987D10082143F /* build-xcframework-from-pod.sh in Resources */ = {isa = PBXBuildFile; fileRef = F1ABBDEC2BC987D10082143F /* build-xcframework-from-pod.sh */; };
 		F1ABBE042BC9883C0082143F /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDD2BC987B20082143F /* Starscream.xcframework */; };
 		F1ABBE052BC9883C0082143F /* Starscream.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABBDDD2BC987B20082143F /* Starscream.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F1E347EB2BC99ED300D64759 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E347EA2BC99ED300D64759 /* SystemConfiguration.framework */; };
@@ -95,6 +89,7 @@
 		F1ABBDE92BC987D10082143F /* build-xcframework-from-git.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-xcframework-from-git.sh"; path = "../build-xcframework-from-git.sh"; sourceTree = "<group>"; };
 		F1ABBDEB2BC987D10082143F /* build-parse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-parse.sh"; path = "../build-parse.sh"; sourceTree = "<group>"; };
 		F1ABBDEC2BC987D10082143F /* build-xcframework-from-pod.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "build-xcframework-from-pod.sh"; path = "../build-xcframework-from-pod.sh"; sourceTree = "<group>"; };
+		F1B835722BD015B700E164AC /* backup */ = {isa = PBXFileReference; lastKnownFileType = text; path = backup; sourceTree = "<group>"; };
 		F1E347EA2BC99ED300D64759 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F1E347EC2BC99EDC00D64759 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F1E347EE2BC99EF300D64759 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -205,6 +200,7 @@
 				F1ABBDEB2BC987D10082143F /* build-parse.sh */,
 				F1ABBDE92BC987D10082143F /* build-xcframework-from-git.sh */,
 				F1ABBDEC2BC987D10082143F /* build-xcframework-from-pod.sh */,
+				F1B835722BD015B700E164AC /* backup */,
 			);
 			name = Scripts;
 			sourceTree = "<group>";
@@ -360,12 +356,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1ABBDEE2BC987D10082143F /* build-dependencies.sh in Resources */,
-				F1ABBDEF2BC987D10082143F /* build-xcframework-from-git.sh in Resources */,
-				F1ABBDED2BC987D10082143F /* build-frameworks.sh in Resources */,
-				F147F9892BC98B8600422672 /* Project.rb in Resources */,
-				F1ABBDF12BC987D10082143F /* build-parse.sh in Resources */,
-				F1ABBDF22BC987D10082143F /* build-xcframework-from-pod.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
