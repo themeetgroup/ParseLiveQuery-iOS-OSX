@@ -15,16 +15,15 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.ios.deployment_target = '13.0'
+  s.static_framework = false
 
   s.subspec 'Starscream' do |starscream|
-    starscream.static_framework = false
     starscream.vendored_framework = 'Frameworks/Starscream.xcframework'
     starscream.preserve_path = 'Frameworks/*'
   end
 
   s.subspec 'TMGParseLiveQuery' do |parse|
     parse.module_name = 'TMGParseLiveQuery'
-    parse.static_framework = false
     parse.preserve_path = 'Frameworks/*'
     parse.vendored_frameworks = 'Frameworks/Bolts.xcframework',
                                 'Frameworks/BoltsSwift.xcframework',
