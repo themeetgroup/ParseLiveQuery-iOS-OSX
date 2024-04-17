@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'TMGParseLiveQuery' do |parse|
-    parse.module_name = 'TMGParseLiveQuery'
     parse.preserve_path = 'Frameworks/*'
     parse.vendored_frameworks = 'Frameworks/Bolts.xcframework',
                                 'Frameworks/BoltsSwift.xcframework',
