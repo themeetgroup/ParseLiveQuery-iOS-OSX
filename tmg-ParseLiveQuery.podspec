@@ -16,21 +16,27 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.module_name = 'TMGParseLiveQuery'
+  s.subspec 'Starscream' do |starscream|
+    starscream.static_framework = false
+    starscream.vendored_framework = 'Frameworks/Starscream.xcframework'
+    starscream.preserve_path = 'Frameworks/*'
+  end
 
-  s.vendored_framework = 'Frameworks/Bolts.xcframework',
-                          'Frameworks/BoltsSwift.xcframework',
-                          'Frameworks/ParseCore.xcframework',
-                          'Frameworks/TMGParseLiveQuery.xcframework'
-                          'Frameworks/Starscream.xcframework'
+  s.subspec 'TMGParseLiveQuery' do |parse|
+    parse.module_name = 'TMGParseLiveQuery'
+    parse.static_framework = false
+    parse.preserve_path = 'Frameworks/*'
+    parse.vendored_frameworks = 'Frameworks/Bolts.xcframework',
+                                'Frameworks/BoltsSwift.xcframework',
+                                'Frameworks/ParseCore.xcframework',
+                                'Frameworks/TMGParseLiveQuery.xcframework'
 
-  s.preserve_path = 'Frameworks/*'
+    parse.frameworks = 'AudioToolbox',
+                       'SystemConfiguration',
+                       'Security'
 
-  s.frameworks = 'AudioToolbox',
-                  'SystemConfiguration',
-                  'Security'
-
-  s.libraries = 'sqlite3',
-                'icucore'
+    parse.libraries = 'sqlite3',
+                      'icucore'
+  end
 
 end
