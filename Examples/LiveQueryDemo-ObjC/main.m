@@ -8,8 +8,8 @@
  */
 
 @import Foundation;
-@import Parse;
-@import ParseLiveQuery;
+@import ParseCore;
+@import TMGParseLiveQuery;
 
 #import "ChatRoomManager.h"
 #import "Message.h"
