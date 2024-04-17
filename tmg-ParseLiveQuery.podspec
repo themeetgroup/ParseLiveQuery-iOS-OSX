@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.ios.deployment_target = '13.0'
-  s.static_framework = false
+  s.static_framework = true
 
   s.preserve_path = 'Frameworks/*'
   s.dependency 'Starscream', '4.0.6'
