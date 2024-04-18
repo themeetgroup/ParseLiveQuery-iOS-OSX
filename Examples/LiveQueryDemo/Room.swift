@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import ParseCore
+import TMGParseCore
 
 class Room: PFObject, PFSubclassing {
     @NSManaged var name: String?

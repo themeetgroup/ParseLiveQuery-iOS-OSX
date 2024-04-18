@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import ParseCore
+import TMGParseCore
 
 class Message: PFObject, PFSubclassing {
     @NSManaged var author: PFUser?

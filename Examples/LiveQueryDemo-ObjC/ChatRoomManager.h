@@ -8,7 +8,7 @@
  */
 
 @import Foundation;
-@import ParseCore;
+@import TMGParseCore;
 @import TMGParseLiveQuery;
 
 #import "Message.h"

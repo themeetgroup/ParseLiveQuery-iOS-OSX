@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import ParseCore
+import TMGParseCore
 
 /**
  NOTE: This is super hacky, and we need a better answer for this.
