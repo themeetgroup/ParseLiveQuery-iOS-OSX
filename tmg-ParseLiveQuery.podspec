@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'tmg-ParseLiveQuery'
-  s.version          = '2.8.2'
+  s.version          = '2.8.5'
   s.license          =  { :type => 'BSD' }
   s.summary          = 'Allows for subscriptions to queries in conjunction with parse-server.'
   s.homepage         = 'http://parseplatform.org'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/ParseLiveQuery/**/*.{swift,h}'
   s.module_name = 'TMGParseLiveQuery'
 
-  s.dependency 'TMGParseCore'
+  s.dependency 'TMGParseCore', '~> 1.19.6'
   s.dependency 'Bolts-Swift', '~> 1.5.0'
   s.dependency 'Starscream', '~> 4.0.4'
 
