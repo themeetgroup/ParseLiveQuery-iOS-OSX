@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'tmg-ParseLiveQuery'
-  s.version          = '2.8.5'
+  s.version          = '2.8.6'
   s.license          =  { :type => 'BSD' }
   s.summary          = 'Allows for subscriptions to queries in conjunction with parse-server.'
   s.homepage         = 'http://parseplatform.org'
@@ -11,14 +11,11 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.platform = :ios, :osx, :tvos, :watchos
+  s.platform = :ios
   s.swift_version = '5.0'
   s.cocoapods_version = '>= 1.4'
 
-  s.ios.deployment_target = '9.0'
-  s.tvos.deployment_target = '10.0'
-  s.watchos.deployment_target = '2.0'
-  s.osx.deployment_target = '10.10'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Sources/ParseLiveQuery/**/*.{swift,h}'
   s.module_name = 'TMGParseLiveQuery'
