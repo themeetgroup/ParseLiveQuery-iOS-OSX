@@ -1,0 +1,30 @@
+PODS:
+  - Bolts-Swift (1.5.0)
+  - Bolts/Tasks (1.9.1)
+  - Starscream (4.0.4)
+  - TMGParseCore (1.19.7):
+    - TMGParseCore/Core (= 1.19.7)
+  - TMGParseCore/Core (1.19.7):
+    - Bolts/Tasks (= 1.9.1)
+
+DEPENDENCIES:
+  - Bolts-Swift (= 1.5.0)
+  - Starscream (= 4.0.4)
+  - TMGParseCore (= 1.19.7)
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Bolts-Swift
+    - Starscream
+    - TMGParseCore
+
+SPEC CHECKSUMS:
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  TMGParseCore: e4fc110b836ece3d05df8b089f0c5820d10f7606
+
+PODFILE CHECKSUM: 4a1018c3f9dae087de0c63e6d4f59e5aced349fd
+
+COCOAPODS: 1.15.2

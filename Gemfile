@@ -1,3 +1,2 @@
 source 'https://rubygems.org'
-
-gem 'jazzy', '0.13.1'
+gem 'cocoapods', '1.15.2'

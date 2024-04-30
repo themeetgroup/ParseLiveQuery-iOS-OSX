@@ -14,4 +14,10 @@
          location = "group:Examples/LiveQueryDemo.xcodeproj">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sources/ParseLiveQuery.xcodeproj">
+   </FileRef>
 </Workspace>

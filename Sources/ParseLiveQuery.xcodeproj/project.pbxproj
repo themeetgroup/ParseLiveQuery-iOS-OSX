@@ -15,9 +15,8 @@
 		09D80FDE1E26C03E00AC7A2D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D80FDD1E26C03E00AC7A2D /* SystemConfiguration.framework */; };
 		09D80FE01E26C04800AC7A2D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D80FDF1E26C04800AC7A2D /* AudioToolbox.framework */; };
 		09D80FE21E26C05200AC7A2D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D80FE11E26C05200AC7A2D /* libsqlite3.tbd */; };
-		4A6AE335200FB54C007CA404 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AE319200FB23E007CA404 /* Parse.framework */; };
+		2376BD95AECA45056EFC3707 /* Pods_ParseLiveQuery_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134BA462F0A98050EB4A9369 /* Pods_ParseLiveQuery_iOS.framework */; };
 		4A6AE37E200FC9DF007CA404 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AE37B200FC9C5007CA404 /* Starscream.framework */; };
-		4A6AE37F200FD00E007CA404 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AE37B200FC9C5007CA404 /* Starscream.framework */; };
 		4A819D9D1D937866009C0F61 /* ObjCCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D58B51C8E33D9009F8D6C /* ObjCCompat.swift */; };
 		4A819D9E1D93786A009C0F61 /* ObjCCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D58B51C8E33D9009F8D6C /* ObjCCompat.swift */; };
 		708836762561F503005B32F0 /* ParseLiveQuery_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 708836742561F503005B32F0 /* ParseLiveQuery_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -204,13 +203,6 @@
 			remoteGlobalIDString = 335FA2021F5DF71D00F6D2EC;
 			remoteInfo = "Starscream Tests";
 		};
-		4ABA29F9205C346700ABF9CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A6AE30B200FB23E007CA404 /* Parse.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 81C582E11C3B0A98000063C6;
-			remoteInfo = "Parse-iOS-Dynamic";
-		};
 		BC2D679E239131E500DC849E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC2D6789239131E500DC849E /* BoltsSwift.xcodeproj */;
@@ -267,13 +259,6 @@
 			remoteGlobalIDString = 81CC14EB1A9BE0A100B28F86;
 			remoteInfo = "BoltsSwift-macOS";
 		};
-		BC2D67B82391321700DC849E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC2D6789239131E500DC849E /* BoltsSwift.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 87FEF3651A9085FA00C60678;
-			remoteInfo = "BoltsSwift-iOS";
-		};
 		BCC3A76423905FDF0082C2A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A6AE30B200FB23E007CA404 /* Parse.xcodeproj */;
@@ -316,6 +301,7 @@
 		09D80FDD1E26C03E00AC7A2D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		09D80FDF1E26C04800AC7A2D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		09D80FE11E26C05200AC7A2D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		134BA462F0A98050EB4A9369 /* Pods_ParseLiveQuery_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLiveQuery_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1A99611E5E8DBB0047B84B /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = ../Carthage/Checkouts/Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
 		4A6AE30B200FB23E007CA404 /* Parse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Parse.xcodeproj; path = "../Carthage/Checkouts/Parse-SDK-iOS-OSX/Parse/Parse.xcodeproj"; sourceTree = "<group>"; };
 		4A6AE337200FB569007CA404 /* Bolts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bolts.xcodeproj; path = "../Carthage/Checkouts/Bolts-ObjC/Bolts.xcodeproj"; sourceTree = "<group>"; };
@@ -325,7 +311,9 @@
 		708836942561F55B005B32F0 /* TMGParseLiveQuery_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMGParseLiveQuery_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		708836962561F55B005B32F0 /* ParseLiveQuery_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseLiveQuery_tvOS.h; sourceTree = "<group>"; };
 		708836972561F55B005B32F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A533FD810366634B0961E9 /* Pods-ParseLiveQuery-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLiveQuery-iOS.release.xcconfig"; path = "Target Support Files/Pods-ParseLiveQuery-iOS/Pods-ParseLiveQuery-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		BC2D6789239131E500DC849E /* BoltsSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BoltsSwift.xcodeproj; path = "../Carthage/Checkouts/Bolts-Swift/BoltsSwift.xcodeproj"; sourceTree = "<group>"; };
+		CADC455FCB6D34CEEC120D03 /* Pods-ParseLiveQuery-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLiveQuery-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ParseLiveQuery-iOS/Pods-ParseLiveQuery-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F5256FD31BD71F9A0052FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F534A5B11BDAFE0200CBD11A /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		F534A5B31BDB09CE00CBD11A /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
@@ -374,8 +362,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6AE37F200FD00E007CA404 /* Starscream.framework in Frameworks */,
-				4A6AE335200FB54C007CA404 /* Parse.framework in Frameworks */,
+				2376BD95AECA45056EFC3707 /* Pods_ParseLiveQuery_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +378,19 @@
 				094AE9011E25AF3A00F408BC /* Foundation.framework */,
 				094AE9031E25AF4300F408BC /* Security.framework */,
 				094AE8FF1E25AF3100F408BC /* libicucore.tbd */,
+				134BA462F0A98050EB4A9369 /* Pods_ParseLiveQuery_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A38BB123047A47465050C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CADC455FCB6D34CEEC120D03 /* Pods-ParseLiveQuery-iOS.debug.xcconfig */,
+				B8A533FD810366634B0961E9 /* Pods-ParseLiveQuery-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 		4A1A99621E5E8DBB0047B84B /* Products */ = {
@@ -491,6 +489,7 @@
 				4A6AE30B200FB23E007CA404 /* Parse.xcodeproj */,
 				4A1A99611E5E8DBB0047B84B /* Starscream.xcodeproj */,
 				0BD13CAB7945A6C1A2A7B613 /* Frameworks */,
+				25A38BB123047A47465050C4 /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -630,6 +629,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5A9BFC71BE0248D00E78326 /* Build configuration list for PBXNativeTarget "ParseLiveQuery-iOS" */;
 			buildPhases = (
+				C3FBA5D5663049399191974D /* [CP] Check Pods Manifest.lock */,
 				F5A9BFBA1BE0248D00E78326 /* Sources */,
 				F5A9BFC01BE0248D00E78326 /* Frameworks */,
 				F5A9BFC31BE0248D00E78326 /* Headers */,
@@ -638,8 +638,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				BC2D67B92391321700DC849E /* PBXTargetDependency */,
-				4ABA29FA205C346700ABF9CB /* PBXTargetDependency */,
 			);
 			name = "ParseLiveQuery-iOS";
 			productName = ParseLiveQuery;
@@ -955,6 +953,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C3FBA5D5663049399191974D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseLiveQuery-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7088366E2561F502005B32F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1005,20 +1028,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4ABA29FA205C346700ABF9CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Parse-iOS-Dynamic";
-			targetProxy = 4ABA29F9205C346700ABF9CB /* PBXContainerItemProxy */;
-		};
 		BC2D67B72391320F00DC849E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BoltsSwift-macOS";
 			targetProxy = BC2D67B62391320F00DC849E /* PBXContainerItemProxy */;
-		};
-		BC2D67B92391321700DC849E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BoltsSwift-iOS";
-			targetProxy = BC2D67B82391321700DC849E /* PBXContainerItemProxy */;
 		};
 		BCC3A76523905FDF0082C2A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1356,8 +1369,8 @@
 		};
 		F5A9BFC81BE0248D00E78326 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADC455FCB6D34CEEC120D03 /* Pods-ParseLiveQuery-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -1385,8 +1398,8 @@
 		};
 		F5A9BFC91BE0248D00E78326 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A533FD810366634B0961E9 /* Pods-ParseLiveQuery-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGNING_REQUIRED = NO;
