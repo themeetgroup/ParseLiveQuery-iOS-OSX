@@ -7,7 +7,7 @@ workspace 'ParseLiveQuery.xcworkspace'
 project 'sources/ParseLiveQuery.xcodeproj'
 
 VERSION_TMGParseCore      = '1.19.7'
-VERSION_Starscream        = '4.0.4'
+VERSION_Starscream        = '4.0.8'
 VERSION_BoltsSwift        = '1.5.0'
 
 

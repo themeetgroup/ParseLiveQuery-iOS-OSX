@@ -115,10 +115,11 @@ func == (first: Client.RequestId, second: Client.RequestId) -> Bool {
 // ---------------
 
 extension Client: WebSocketDelegate {
-    public func didReceive(event: WebSocketEvent, client: WebSocket) {
+
+    public func didReceive(event: Starscream.WebSocketEvent, client: any Starscream.WebSocketClient) {
         stopPingTimer()
         switch event {
-        
+
         case .connected(_):
             isConnecting = false
             let sessionToken = PFUser.current()?.sessionToken ?? ""
@@ -172,6 +173,19 @@ extension Client: WebSocketDelegate {
         case .ping(_):
             if shouldPrintWebSocketLog { NSLog("ParseLiveQuery: Received ping but we don't handle it...") }
             startPingTimer()
+        case .peerClosed:
+            isConnecting = false
+            if shouldPrintWebSocketLog {
+                NSLog("ParseLiveQuery: WebSocket peerClosed (remote closed connection)")
+            }
+
+            // Optional: ensure local socket is fully torn down
+            socket?.disconnect()
+
+            // Same retry behavior as disconnected/cancelled
+            if !userDisconnected {
+                reconnect()
+            }
         }
     }
     /// Stop the ping timer

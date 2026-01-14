@@ -159,7 +159,7 @@ extension Client {
             requestId: requestIdGenerator(),
             handler: handler
         )
-        
+
         self.subscriptions.append(subscriptionRecord)
 
         if socket != nil {
@@ -172,7 +172,7 @@ extension Client {
         } else {
             NSLog("ParseLiveQuery: Warning: The client was explicitly disconnected! You must explicitly call .reconnect() in order to process your subscriptions.")
         }
-        
+
         return handler
     }
 
@@ -285,6 +285,7 @@ extension Client {
 
 /// An object that will handle disconnecting a socket and notifiying the owner
 class PLQDisconnectingSocket: WebSocketDelegate, Hashable {
+
     /// The id of this class
     let id: NSUUID = NSUUID()
     /// The socket to close
@@ -300,13 +301,15 @@ class PLQDisconnectingSocket: WebSocketDelegate, Hashable {
         self.completion = completion
         self.socket.delegate = self
     }
-    func didReceive(event: WebSocketEvent, client: WebSocket) {
+    func didReceive(event: Starscream.WebSocketEvent, client: any Starscream.WebSocketClient) {
         switch event {
         case .connected, .text, .binary, .error, .viabilityChanged, .reconnectSuggested, .ping, .pong:
             break
-        case .disconnected(let reason, let code):
+        case .disconnected(_, _):
             completion(self)
         case .cancelled:
+            completion(self)
+        case .peerClosed:
             completion(self)
         }
     }

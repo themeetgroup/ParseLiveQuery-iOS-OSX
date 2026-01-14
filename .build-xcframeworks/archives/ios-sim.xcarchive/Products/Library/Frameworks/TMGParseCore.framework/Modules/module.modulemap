@@ -1,0 +1,6 @@
+framework module TMGParseCore {
+  umbrella header "TMGParseCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

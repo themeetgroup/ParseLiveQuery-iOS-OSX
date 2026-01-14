@@ -1,0 +1,4 @@
+framework module TMGParseLiveQuery {
+  header "TMGParseLiveQuery-Swift.h"
+  requires objc
+}

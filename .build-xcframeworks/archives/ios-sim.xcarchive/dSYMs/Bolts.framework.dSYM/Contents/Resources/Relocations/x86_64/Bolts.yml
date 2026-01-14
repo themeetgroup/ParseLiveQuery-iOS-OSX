@@ -1,0 +1,158 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jlaudenslayer/Library/Developer/Xcode/DerivedData/ParseLiveQuery-edvibjaedmeyrbabokkhtkvprvkf/Build/Intermediates.noindex/ArchiveIntermediates/ParseLiveQuery-iOS/InstallationBuildProductsLocation/Library/Frameworks/Bolts.framework/Bolts'
+relocations:
+  - { offset: 0x89376, size: 0x8, addend: 0x0, symName: _BoltsVersionString, symObjAddr: 0x0, symBinAddr: 0x4DF0, symSize: 0x0 }
+  - { offset: 0x893AB, size: 0x8, addend: 0x0, symName: _BoltsVersionNumber, symObjAddr: 0x28, symBinAddr: 0x4E18, symSize: 0x0 }
+  - { offset: 0x893E8, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken init]', symObjAddr: 0x0, symBinAddr: 0xB68, symSize: 0xA4 }
+  - { offset: 0x8948D, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken init]', symObjAddr: 0x0, symBinAddr: 0xB68, symSize: 0xA4 }
+  - { offset: 0x8951C, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken isCancellationRequested]', symObjAddr: 0xA4, symBinAddr: 0xC0C, symSize: 0x74 }
+  - { offset: 0x89587, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken cancel]', symObjAddr: 0x118, symBinAddr: 0xC80, symSize: 0x105 }
+  - { offset: 0x8966B, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken notifyCancellation:]', symObjAddr: 0x21D, symBinAddr: 0xD85, symSize: 0x120 }
+  - { offset: 0x89730, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken registerCancellationObserverWithBlock:]', symObjAddr: 0x33D, symBinAddr: 0xEA5, symSize: 0xFD }
+  - { offset: 0x8983F, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken unregisterRegistration:]', symObjAddr: 0x43A, symBinAddr: 0xFA2, symSize: 0xBA }
+  - { offset: 0x8990B, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken cancelPrivate]', symObjAddr: 0x4F4, symBinAddr: 0x105C, symSize: 0x12 }
+  - { offset: 0x89951, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken cancelAfterDelay:]', symObjAddr: 0x506, symBinAddr: 0x106E, symSize: 0x13F }
+  - { offset: 0x89A70, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken dispose]', symObjAddr: 0x645, symBinAddr: 0x11AD, symSize: 0xD2 }
+  - { offset: 0x89B2F, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken throwIfDisposed]', symObjAddr: 0x717, symBinAddr: 0x127F, symSize: 0x3F }
+  - { offset: 0x89B83, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken registrations]', symObjAddr: 0x756, symBinAddr: 0x12BE, symSize: 0xA }
+  - { offset: 0x89BB8, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken setRegistrations:]', symObjAddr: 0x760, symBinAddr: 0x12C8, symSize: 0x11 }
+  - { offset: 0x89BF9, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken lock]', symObjAddr: 0x771, symBinAddr: 0x12D9, symSize: 0xA }
+  - { offset: 0x89C2E, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken setLock:]', symObjAddr: 0x77B, symBinAddr: 0x12E3, symSize: 0x11 }
+  - { offset: 0x89C6F, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken disposed]', symObjAddr: 0x78C, symBinAddr: 0x12F4, symSize: 0x9 }
+  - { offset: 0x89CA4, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken setDisposed:]', symObjAddr: 0x795, symBinAddr: 0x12FD, symSize: 0x9 }
+  - { offset: 0x89CE1, size: 0x8, addend: 0x0, symName: '-[BFCancellationToken .cxx_destruct]', symObjAddr: 0x79E, symBinAddr: 0x1306, symSize: 0x28 }
+  - { offset: 0x89E51, size: 0x8, addend: 0x0, symName: '+[BFCancellationTokenRegistration registrationWithToken:delegate:]', symObjAddr: 0x0, symBinAddr: 0x132E, symSize: 0x94 }
+  - { offset: 0x89F86, size: 0x8, addend: 0x0, symName: '+[BFCancellationTokenRegistration registrationWithToken:delegate:]', symObjAddr: 0x0, symBinAddr: 0x132E, symSize: 0x94 }
+  - { offset: 0x8A084, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration init]', symObjAddr: 0x94, symBinAddr: 0x13C2, symSize: 0x70 }
+  - { offset: 0x8A0FB, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration dispose]', symObjAddr: 0x104, symBinAddr: 0x1432, symSize: 0xE9 }
+  - { offset: 0x8A1F3, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration notifyDelegate]', symObjAddr: 0x1ED, symBinAddr: 0x151B, symSize: 0x99 }
+  - { offset: 0x8A27E, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration throwIfDisposed]', symObjAddr: 0x286, symBinAddr: 0x15B4, symSize: 0x6 }
+  - { offset: 0x8A2AD, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration token]', symObjAddr: 0x28C, symBinAddr: 0x15BA, symSize: 0x16 }
+  - { offset: 0x8A2E4, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration setToken:]', symObjAddr: 0x2A2, symBinAddr: 0x15D0, symSize: 0x11 }
+  - { offset: 0x8A325, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration cancellationObserverBlock]', symObjAddr: 0x2B3, symBinAddr: 0x15E1, symSize: 0xA }
+  - { offset: 0x8A35A, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration setCancellationObserverBlock:]', symObjAddr: 0x2BD, symBinAddr: 0x15EB, symSize: 0xF }
+  - { offset: 0x8A399, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration lock]', symObjAddr: 0x2CC, symBinAddr: 0x15FA, symSize: 0xA }
+  - { offset: 0x8A3CE, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration setLock:]', symObjAddr: 0x2D6, symBinAddr: 0x1604, symSize: 0x11 }
+  - { offset: 0x8A40F, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration disposed]', symObjAddr: 0x2E7, symBinAddr: 0x1615, symSize: 0x9 }
+  - { offset: 0x8A444, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration setDisposed:]', symObjAddr: 0x2F0, symBinAddr: 0x161E, symSize: 0x9 }
+  - { offset: 0x8A481, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenRegistration .cxx_destruct]', symObjAddr: 0x2F9, symBinAddr: 0x1627, symSize: 0x31 }
+  - { offset: 0x8A54D, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource init]', symObjAddr: 0x0, symBinAddr: 0x1658, symSize: 0x70 }
+  - { offset: 0x8A5C4, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource init]', symObjAddr: 0x0, symBinAddr: 0x1658, symSize: 0x70 }
+  - { offset: 0x8A63B, size: 0x8, addend: 0x0, symName: '+[BFCancellationTokenSource cancellationTokenSource]', symObjAddr: 0x70, symBinAddr: 0x16C8, symSize: 0x21 }
+  - { offset: 0x8A67A, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource isCancellationRequested]', symObjAddr: 0x91, symBinAddr: 0x16E9, symSize: 0x16 }
+  - { offset: 0x8A6BD, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource cancel]', symObjAddr: 0xA7, symBinAddr: 0x16FF, symSize: 0x16 }
+  - { offset: 0x8A6FC, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource cancelAfterDelay:]', symObjAddr: 0xBD, symBinAddr: 0x1715, symSize: 0x16 }
+  - { offset: 0x8A752, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource dispose]', symObjAddr: 0xD3, symBinAddr: 0x172B, symSize: 0x16 }
+  - { offset: 0x8A791, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource token]', symObjAddr: 0xE9, symBinAddr: 0x1741, symSize: 0xA }
+  - { offset: 0x8A7C6, size: 0x8, addend: 0x0, symName: '-[BFCancellationTokenSource .cxx_destruct]', symObjAddr: 0xF3, symBinAddr: 0x174B, symSize: 0x10 }
+  - { offset: 0x8A899, size: 0x8, addend: 0x0, symName: '+[BFExecutor defaultExecutor]', symObjAddr: 0x0, symBinAddr: 0x175B, symSize: 0x63 }
+  - { offset: 0x8A8A7, size: 0x8, addend: 0x0, symName: '+[BFExecutor defaultExecutor]', symObjAddr: 0x0, symBinAddr: 0x175B, symSize: 0x63 }
+  - { offset: 0x8A8D1, size: 0x8, addend: 0x0, symName: _defaultExecutor.defaultExecutor, symObjAddr: 0x4EC8, symBinAddr: 0x8E00, symSize: 0x0 }
+  - { offset: 0x8A8E7, size: 0x8, addend: 0x0, symName: _defaultExecutor.onceToken, symObjAddr: 0x4ED0, symBinAddr: 0x8E08, symSize: 0x0 }
+  - { offset: 0x8AA26, size: 0x8, addend: 0x0, symName: '+[BFExecutor immediateExecutor]', symObjAddr: 0x16C, symBinAddr: 0x18C7, symSize: 0x63 }
+  - { offset: 0x8AA50, size: 0x8, addend: 0x0, symName: _immediateExecutor.immediateExecutor, symObjAddr: 0x4ED8, symBinAddr: 0x8E10, symSize: 0x0 }
+  - { offset: 0x8AA66, size: 0x8, addend: 0x0, symName: _immediateExecutor.onceToken, symObjAddr: 0x4EE0, symBinAddr: 0x8E18, symSize: 0x0 }
+  - { offset: 0x8AAB7, size: 0x8, addend: 0x0, symName: '+[BFExecutor mainThreadExecutor]', symObjAddr: 0x213, symBinAddr: 0x196E, symSize: 0x63 }
+  - { offset: 0x8AAE1, size: 0x8, addend: 0x0, symName: _mainThreadExecutor.mainThreadExecutor, symObjAddr: 0x4EE8, symBinAddr: 0x8E20, symSize: 0x0 }
+  - { offset: 0x8AAF7, size: 0x8, addend: 0x0, symName: _mainThreadExecutor.onceToken, symObjAddr: 0x4EF0, symBinAddr: 0x8E28, symSize: 0x0 }
+  - { offset: 0x8AB82, size: 0x8, addend: 0x0, symName: '___29+[BFExecutor defaultExecutor]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x17BE, symSize: 0x39 }
+  - { offset: 0x8ABD9, size: 0x8, addend: 0x0, symName: '___29+[BFExecutor defaultExecutor]_block_invoke_2', symObjAddr: 0x9C, symBinAddr: 0x17F7, symSize: 0x94 }
+  - { offset: 0x8ACC2, size: 0x8, addend: 0x0, symName: _remaining_stack_size, symObjAddr: 0x130, symBinAddr: 0x188B, symSize: 0x3C }
+  - { offset: 0x8ADAD, size: 0x8, addend: 0x0, symName: '___31+[BFExecutor immediateExecutor]_block_invoke', symObjAddr: 0x1CF, symBinAddr: 0x192A, symSize: 0x39 }
+  - { offset: 0x8AE04, size: 0x8, addend: 0x0, symName: '___31+[BFExecutor immediateExecutor]_block_invoke_2', symObjAddr: 0x208, symBinAddr: 0x1963, symSize: 0xB }
+  - { offset: 0x8AE50, size: 0x8, addend: 0x0, symName: '___32+[BFExecutor mainThreadExecutor]_block_invoke', symObjAddr: 0x276, symBinAddr: 0x19D1, symSize: 0x39 }
+  - { offset: 0x8AEA7, size: 0x8, addend: 0x0, symName: '___32+[BFExecutor mainThreadExecutor]_block_invoke_2', symObjAddr: 0x2AF, symBinAddr: 0x1A0A, symSize: 0x5F }
+  - { offset: 0x8AF35, size: 0x8, addend: 0x0, symName: '+[BFExecutor executorWithBlock:]', symObjAddr: 0x30E, symBinAddr: 0x1A69, symSize: 0x49 }
+  - { offset: 0x8AFB9, size: 0x8, addend: 0x0, symName: '+[BFExecutor executorWithDispatchQueue:]', symObjAddr: 0x357, symBinAddr: 0x1AB2, symSize: 0xA2 }
+  - { offset: 0x8B04D, size: 0x8, addend: 0x0, symName: '___40+[BFExecutor executorWithDispatchQueue:]_block_invoke', symObjAddr: 0x3F9, symBinAddr: 0x1B54, symSize: 0xE }
+  - { offset: 0x8B0AD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x407, symBinAddr: 0x1B62, symSize: 0xF }
+  - { offset: 0x8B0E0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x416, symBinAddr: 0x1B71, symSize: 0xF }
+  - { offset: 0x8B10B, size: 0x8, addend: 0x0, symName: '+[BFExecutor executorWithOperationQueue:]', symObjAddr: 0x425, symBinAddr: 0x1B80, symSize: 0xA2 }
+  - { offset: 0x8B19F, size: 0x8, addend: 0x0, symName: '___41+[BFExecutor executorWithOperationQueue:]_block_invoke', symObjAddr: 0x4C7, symBinAddr: 0x1C22, symSize: 0x57 }
+  - { offset: 0x8B216, size: 0x8, addend: 0x0, symName: '-[BFExecutor initWithBlock:]', symObjAddr: 0x51E, symBinAddr: 0x1C79, symSize: 0x82 }
+  - { offset: 0x8B2BA, size: 0x8, addend: 0x0, symName: '-[BFExecutor execute:]', symObjAddr: 0x5A0, symBinAddr: 0x1CFB, symSize: 0x5F }
+  - { offset: 0x8B352, size: 0x8, addend: 0x0, symName: '-[BFExecutor block]', symObjAddr: 0x5FF, symBinAddr: 0x1D5A, symSize: 0xA }
+  - { offset: 0x8B387, size: 0x8, addend: 0x0, symName: '-[BFExecutor setBlock:]', symObjAddr: 0x609, symBinAddr: 0x1D64, symSize: 0xF }
+  - { offset: 0x8B3C6, size: 0x8, addend: 0x0, symName: '-[BFExecutor .cxx_destruct]', symObjAddr: 0x618, symBinAddr: 0x1D73, symSize: 0x10 }
+  - { offset: 0x8B7CD, size: 0x8, addend: 0x0, symName: _warnBlockingOperationOnMainThread, symObjAddr: 0x0, symBinAddr: 0x1D83, symSize: 0x14 }
+  - { offset: 0x8B7E7, size: 0x8, addend: 0x0, symName: _BFTaskErrorDomain, symObjAddr: 0x2F28, symBinAddr: 0x7230, symSize: 0x0 }
+  - { offset: 0x8B807, size: 0x8, addend: 0x0, symName: _kBFMultipleErrorsError, symObjAddr: 0x30E8, symBinAddr: 0x4E28, symSize: 0x0 }
+  - { offset: 0x8B829, size: 0x8, addend: 0x0, symName: _BFTaskMultipleErrorsUserInfoKey, symObjAddr: 0x2F30, symBinAddr: 0x7238, symSize: 0x0 }
+  - { offset: 0x8B97A, size: 0x8, addend: 0x0, symName: _warnBlockingOperationOnMainThread, symObjAddr: 0x0, symBinAddr: 0x1D83, symSize: 0x14 }
+  - { offset: 0x8B9AF, size: 0x8, addend: 0x0, symName: '-[BFTask init]', symObjAddr: 0x14, symBinAddr: 0x1D97, symSize: 0xCF }
+  - { offset: 0x8BA66, size: 0x8, addend: 0x0, symName: '-[BFTask initWithResult:]', symObjAddr: 0xE3, symBinAddr: 0x1E66, symSize: 0x7F }
+  - { offset: 0x8BB19, size: 0x8, addend: 0x0, symName: '-[BFTask initWithError:]', symObjAddr: 0x162, symBinAddr: 0x1EE5, symSize: 0x7F }
+  - { offset: 0x8BBCC, size: 0x8, addend: 0x0, symName: '-[BFTask initCancelled]', symObjAddr: 0x1E1, symBinAddr: 0x1F64, symSize: 0x5E }
+  - { offset: 0x8BC3F, size: 0x8, addend: 0x0, symName: '+[BFTask taskWithResult:]', symObjAddr: 0x23F, symBinAddr: 0x1FC2, symSize: 0x49 }
+  - { offset: 0x8BCC3, size: 0x8, addend: 0x0, symName: '+[BFTask taskWithError:]', symObjAddr: 0x288, symBinAddr: 0x200B, symSize: 0x49 }
+  - { offset: 0x8BD47, size: 0x8, addend: 0x0, symName: '+[BFTask cancelledTask]', symObjAddr: 0x2D1, symBinAddr: 0x2054, symSize: 0x22 }
+  - { offset: 0x8BD8A, size: 0x8, addend: 0x0, symName: '+[BFTask taskForCompletionOfAllTasks:]', symObjAddr: 0x2F3, symBinAddr: 0x2076, symSize: 0x3C9 }
+  - { offset: 0x8BFD1, size: 0x8, addend: 0x0, symName: '___38+[BFTask taskForCompletionOfAllTasks:]_block_invoke', symObjAddr: 0x6BC, symBinAddr: 0x243F, symSize: 0x27F }
+  - { offset: 0x8C23A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r64r, symObjAddr: 0x93B, symBinAddr: 0x26BE, symSize: 0x5D }
+  - { offset: 0x8C287, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r64r, symObjAddr: 0x998, symBinAddr: 0x271B, symSize: 0x48 }
+  - { offset: 0x8C2CA, size: 0x8, addend: 0x0, symName: '+[BFTask taskForCompletionOfAllTasksWithResults:]', symObjAddr: 0x9E0, symBinAddr: 0x2763, symSize: 0xD3 }
+  - { offset: 0x8C386, size: 0x8, addend: 0x0, symName: '___49+[BFTask taskForCompletionOfAllTasksWithResults:]_block_invoke', symObjAddr: 0xAB3, symBinAddr: 0x2836, symSize: 0x1D }
+  - { offset: 0x8C3DD, size: 0x8, addend: 0x0, symName: '+[BFTask taskForCompletionOfAnyTask:]', symObjAddr: 0xAEE, symBinAddr: 0x2853, symSize: 0x3F7 }
+  - { offset: 0x8C649, size: 0x8, addend: 0x0, symName: '___37+[BFTask taskForCompletionOfAnyTask:]_block_invoke', symObjAddr: 0xEE5, symBinAddr: 0x2C4A, symSize: 0x2D7 }
+  - { offset: 0x8C907, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r64r72r, symObjAddr: 0x11BC, symBinAddr: 0x2F21, symSize: 0x6F }
+  - { offset: 0x8C954, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r64r72r, symObjAddr: 0x122B, symBinAddr: 0x2F90, symSize: 0x56 }
+  - { offset: 0x8C997, size: 0x8, addend: 0x0, symName: '+[BFTask taskWithDelay:]', symObjAddr: 0x1281, symBinAddr: 0x2FE6, symSize: 0xF6 }
+  - { offset: 0x8CB5F, size: 0x8, addend: 0x0, symName: '___24+[BFTask taskWithDelay:]_block_invoke', symObjAddr: 0x1377, symBinAddr: 0x30DC, symSize: 0x18 }
+  - { offset: 0x8CBAD, size: 0x8, addend: 0x0, symName: '+[BFTask taskWithDelay:cancellationToken:]', symObjAddr: 0x138F, symBinAddr: 0x30F4, symSize: 0x15B }
+  - { offset: 0x8CD2A, size: 0x8, addend: 0x0, symName: '___42+[BFTask taskWithDelay:cancellationToken:]_block_invoke', symObjAddr: 0x14EA, symBinAddr: 0x324F, symSize: 0x4A }
+  - { offset: 0x8CDA0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1534, symBinAddr: 0x3299, symSize: 0x25 }
+  - { offset: 0x8CDE1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1559, symBinAddr: 0x32BE, symSize: 0x25 }
+  - { offset: 0x8CE18, size: 0x8, addend: 0x0, symName: '+[BFTask taskFromExecutor:withBlock:]', symObjAddr: 0x157E, symBinAddr: 0x32E3, symSize: 0xEC }
+  - { offset: 0x8CF0E, size: 0x8, addend: 0x0, symName: '___37+[BFTask taskFromExecutor:withBlock:]_block_invoke', symObjAddr: 0x166A, symBinAddr: 0x33CF, symSize: 0xC }
+  - { offset: 0x8CF65, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x1676, symBinAddr: 0x33DB, symSize: 0x17 }
+  - { offset: 0x8CF8E, size: 0x8, addend: 0x0, symName: '-[BFTask result]', symObjAddr: 0x168D, symBinAddr: 0x33F2, symSize: 0x54 }
+  - { offset: 0x8CFF1, size: 0x8, addend: 0x0, symName: '-[BFTask trySetResult:]', symObjAddr: 0x16E1, symBinAddr: 0x3446, symSize: 0xD0 }
+  - { offset: 0x8D0C3, size: 0x8, addend: 0x0, symName: '-[BFTask error]', symObjAddr: 0x17B1, symBinAddr: 0x3516, symSize: 0x54 }
+  - { offset: 0x8D126, size: 0x8, addend: 0x0, symName: '-[BFTask trySetError:]', symObjAddr: 0x1805, symBinAddr: 0x356A, symSize: 0xE5 }
+  - { offset: 0x8D214, size: 0x8, addend: 0x0, symName: '-[BFTask isCancelled]', symObjAddr: 0x18EA, symBinAddr: 0x364F, symSize: 0x45 }
+  - { offset: 0x8D26C, size: 0x8, addend: 0x0, symName: '-[BFTask isFaulted]', symObjAddr: 0x192F, symBinAddr: 0x3694, symSize: 0x45 }
+  - { offset: 0x8D2C4, size: 0x8, addend: 0x0, symName: '-[BFTask trySetCancelled]', symObjAddr: 0x1974, symBinAddr: 0x36D9, symSize: 0xB5 }
+  - { offset: 0x8D378, size: 0x8, addend: 0x0, symName: '-[BFTask isCompleted]', symObjAddr: 0x1A29, symBinAddr: 0x378E, symSize: 0x45 }
+  - { offset: 0x8D3D0, size: 0x8, addend: 0x0, symName: '-[BFTask runContinuations]', symObjAddr: 0x1A6E, symBinAddr: 0x37D3, symSize: 0x25C }
+  - { offset: 0x8D54F, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithExecutor:withBlock:]', symObjAddr: 0x1CCA, symBinAddr: 0x3A2F, symSize: 0x15 }
+  - { offset: 0x8D5CE, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithExecutor:block:cancellationToken:]', symObjAddr: 0x1CDF, symBinAddr: 0x3A44, symSize: 0x284 }
+  - { offset: 0x8D88F, size: 0x8, addend: 0x0, symName: '___55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke', symObjAddr: 0x1F63, symBinAddr: 0x3CC8, symSize: 0x17D }
+  - { offset: 0x8DA49, size: 0x8, addend: 0x0, symName: '___55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke_2', symObjAddr: 0x20E0, symBinAddr: 0x3E45, symSize: 0xFA }
+  - { offset: 0x8DB52, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x21DA, symBinAddr: 0x3F3F, symSize: 0x4B }
+  - { offset: 0x8DB9F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2225, symBinAddr: 0x3F8A, symSize: 0x33 }
+  - { offset: 0x8DBEE, size: 0x8, addend: 0x0, symName: '___55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke.103', symObjAddr: 0x2258, symBinAddr: 0x3FBD, symSize: 0x1D }
+  - { offset: 0x8DC49, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x2275, symBinAddr: 0x3FDA, symSize: 0x30 }
+  - { offset: 0x8DC7E, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithBlock:]', symObjAddr: 0x22A5, symBinAddr: 0x400A, symSize: 0x90 }
+  - { offset: 0x8DD1C, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithBlock:cancellationToken:]', symObjAddr: 0x2335, symBinAddr: 0x409A, symSize: 0xA3 }
+  - { offset: 0x8DDF3, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithExecutor:withSuccessBlock:]', symObjAddr: 0x23D8, symBinAddr: 0x413D, symSize: 0x15 }
+  - { offset: 0x8DE72, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithExecutor:successBlock:cancellationToken:]', symObjAddr: 0x23ED, symBinAddr: 0x4152, symSize: 0x109 }
+  - { offset: 0x8DF9A, size: 0x8, addend: 0x0, symName: '___62-[BFTask continueWithExecutor:successBlock:cancellationToken:]_block_invoke', symObjAddr: 0x24F6, symBinAddr: 0x425B, symSize: 0x76 }
+  - { offset: 0x8E056, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithSuccessBlock:]', symObjAddr: 0x256C, symBinAddr: 0x42D1, symSize: 0x90 }
+  - { offset: 0x8E0F4, size: 0x8, addend: 0x0, symName: '-[BFTask continueWithSuccessBlock:cancellationToken:]', symObjAddr: 0x25FC, symBinAddr: 0x4361, symSize: 0xA3 }
+  - { offset: 0x8E1CB, size: 0x8, addend: 0x0, symName: '-[BFTask warnOperationOnMainThread]', symObjAddr: 0x269F, symBinAddr: 0x4404, symSize: 0xA }
+  - { offset: 0x8E209, size: 0x8, addend: 0x0, symName: '-[BFTask waitUntilFinished]', symObjAddr: 0x26A9, symBinAddr: 0x440E, symSize: 0x15F }
+  - { offset: 0x8E30F, size: 0x8, addend: 0x0, symName: '-[BFTask description]', symObjAddr: 0x2808, symBinAddr: 0x456D, symSize: 0x1C5 }
+  - { offset: 0x8E485, size: 0x8, addend: 0x0, symName: '-[BFTask setCancelled:]', symObjAddr: 0x29CD, symBinAddr: 0x4732, symSize: 0x9 }
+  - { offset: 0x8E4C2, size: 0x8, addend: 0x0, symName: '-[BFTask setFaulted:]', symObjAddr: 0x29D6, symBinAddr: 0x473B, symSize: 0x9 }
+  - { offset: 0x8E4FF, size: 0x8, addend: 0x0, symName: '-[BFTask setCompleted:]', symObjAddr: 0x29DF, symBinAddr: 0x4744, symSize: 0x9 }
+  - { offset: 0x8E53C, size: 0x8, addend: 0x0, symName: '-[BFTask lock]', symObjAddr: 0x29E8, symBinAddr: 0x474D, symSize: 0xA }
+  - { offset: 0x8E571, size: 0x8, addend: 0x0, symName: '-[BFTask setLock:]', symObjAddr: 0x29F2, symBinAddr: 0x4757, symSize: 0x11 }
+  - { offset: 0x8E5B2, size: 0x8, addend: 0x0, symName: '-[BFTask condition]', symObjAddr: 0x2A03, symBinAddr: 0x4768, symSize: 0xA }
+  - { offset: 0x8E5E7, size: 0x8, addend: 0x0, symName: '-[BFTask setCondition:]', symObjAddr: 0x2A0D, symBinAddr: 0x4772, symSize: 0x11 }
+  - { offset: 0x8E628, size: 0x8, addend: 0x0, symName: '-[BFTask callbacks]', symObjAddr: 0x2A1E, symBinAddr: 0x4783, symSize: 0xA }
+  - { offset: 0x8E65D, size: 0x8, addend: 0x0, symName: '-[BFTask setCallbacks:]', symObjAddr: 0x2A28, symBinAddr: 0x478D, symSize: 0x11 }
+  - { offset: 0x8E69E, size: 0x8, addend: 0x0, symName: '-[BFTask .cxx_destruct]', symObjAddr: 0x2A39, symBinAddr: 0x479E, symSize: 0x49 }
+  - { offset: 0x8EE65, size: 0x8, addend: 0x0, symName: '+[BFTaskCompletionSource taskCompletionSource]', symObjAddr: 0x0, symBinAddr: 0x47E7, symSize: 0x22 }
+  - { offset: 0x8EF40, size: 0x8, addend: 0x0, symName: '+[BFTaskCompletionSource taskCompletionSource]', symObjAddr: 0x0, symBinAddr: 0x47E7, symSize: 0x22 }
+  - { offset: 0x8EF83, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource init]', symObjAddr: 0x22, symBinAddr: 0x4809, symSize: 0x7B }
+  - { offset: 0x8F002, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource setResult:]', symObjAddr: 0x9D, symBinAddr: 0x4884, symSize: 0x9F }
+  - { offset: 0x8F0AE, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource setError:]', symObjAddr: 0x13C, symBinAddr: 0x4923, symSize: 0x9F }
+  - { offset: 0x8F15A, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource cancel]', symObjAddr: 0x1DB, symBinAddr: 0x49C2, symSize: 0x71 }
+  - { offset: 0x8F1C5, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource trySetResult:]', symObjAddr: 0x24C, symBinAddr: 0x4A33, symSize: 0x6E }
+  - { offset: 0x8F269, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource trySetError:]', symObjAddr: 0x2BA, symBinAddr: 0x4AA1, symSize: 0x6E }
+  - { offset: 0x8F30D, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource trySetCancelled]', symObjAddr: 0x328, symBinAddr: 0x4B0F, symSize: 0x44 }
+  - { offset: 0x8F370, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource task]', symObjAddr: 0x36C, symBinAddr: 0x4B53, symSize: 0xA }
+  - { offset: 0x8F3A5, size: 0x8, addend: 0x0, symName: '-[BFTaskCompletionSource .cxx_destruct]', symObjAddr: 0x376, symBinAddr: 0x4B5D, symSize: 0x10 }
+  - { offset: 0x8F464, size: 0x8, addend: 0x0, symName: _BoltsFrameworkVersionString, symObjAddr: 0x28, symBinAddr: 0x73F0, symSize: 0x0 }
+...
