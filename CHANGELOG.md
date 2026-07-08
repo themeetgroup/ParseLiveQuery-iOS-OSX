@@ -1,5 +1,9 @@
 ## ParseLiveQuery-iOS-OSX Changelog
 
+### v2.9.0
+
+Removed the user of starscream
+
 ### Master
 
 [Full Changelog](https://github.com/parse-community/ParseLiveQuery-iOS-OSX/compare/2.8.0...master)
