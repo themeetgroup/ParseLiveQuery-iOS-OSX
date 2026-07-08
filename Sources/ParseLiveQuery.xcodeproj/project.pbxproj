@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0632EDD41CA1A6DB00DD3CB8 /* Parse+LiveQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632EDD31CA1A6DB00DD3CB8 /* Parse+LiveQuery.swift */; };
-		2376BD95AECA45056EFC3707 /* Pods_ParseLiveQuery_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134BA462F0A98050EB4A9369 /* Pods_ParseLiveQuery_iOS.framework */; };
 		4A819D9D1D937866009C0F61 /* ObjCCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D58B51C8E33D9009F8D6C /* ObjCCompat.swift */; };
+		F1FBD4332FE054DB008DBA5A /* TMGParseLiveQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A9BFCA1BE0248D00E78326 /* TMGParseLiveQuery.framework */; };
+		F1FBD4722FE42ABE008DBA5A /* LiveQueryDependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F1FBD4712FE42ABE008DBA5A /* LiveQueryDependencies */; };
 		F5A88F4E1C9B7341002F0E0D /* QueryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5591BA91BD97BB70072F966 /* QueryEncoder.swift */; };
 		F5A88F4F1C9B7341002F0E0D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F534A5B31BDB09CE00CBD11A /* Operation.swift */; };
 		F5A88F501C9B7341002F0E0D /* ClientPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D58B71C8E3446009F8D6C /* ClientPrivate.swift */; };
@@ -19,6 +20,16 @@
 		F5A88F561C9B7341002F0E0D /* PFQuery+Subscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A88F491C9B6EBA002F0E0D /* PFQuery+Subscribe.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F1FBD4342FE054DB008DBA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5256FC51BD71F9A0052FB8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A9BFB61BE0248D00E78326;
+			remoteInfo = "ParseLiveQuery-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0632EDD31CA1A6DB00DD3CB8 /* Parse+LiveQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Parse+LiveQuery.swift"; sourceTree = "<group>"; };
 		094AE8FF1E25AF3100F408BC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -27,9 +38,10 @@
 		09D80FDD1E26C03E00AC7A2D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		09D80FDF1E26C04800AC7A2D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		09D80FE11E26C05200AC7A2D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		134BA462F0A98050EB4A9369 /* Pods_ParseLiveQuery_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLiveQuery_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8A533FD810366634B0961E9 /* Pods-ParseLiveQuery-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLiveQuery-iOS.release.xcconfig"; path = "Target Support Files/Pods-ParseLiveQuery-iOS/Pods-ParseLiveQuery-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		CADC455FCB6D34CEEC120D03 /* Pods-ParseLiveQuery-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLiveQuery-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ParseLiveQuery-iOS/Pods-ParseLiveQuery-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F1FBD42F2FE054DB008DBA5A /* TMGParseLiveQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMGParseLiveQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FBD4592FE05EC3008DBA5A /* Bolts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Bolts.xcframework; sourceTree = "<group>"; };
+		F1FBD45A2FE05EC3008DBA5A /* BoltsSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BoltsSwift.xcframework; sourceTree = "<group>"; };
+		F1FBD45B2FE05EC3008DBA5A /* TMGParseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TMGParseCore.xcframework; sourceTree = "<group>"; };
 		F5256FD31BD71F9A0052FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F534A5B11BDAFE0200CBD11A /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		F534A5B31BDB09CE00CBD11A /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
@@ -42,12 +54,24 @@
 		F5A9BFCA1BE0248D00E78326 /* TMGParseLiveQuery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMGParseLiveQuery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F1FBD4302FE054DB008DBA5A /* TMGParseLiveQueryTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TMGParseLiveQueryTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		F1FBD42C2FE054DB008DBA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FBD4332FE054DB008DBA5A /* TMGParseLiveQuery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5A9BFC01BE0248D00E78326 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2376BD95AECA45056EFC3707 /* Pods_ParseLiveQuery_iOS.framework in Frameworks */,
+				F1FBD4722FE42ABE008DBA5A /* LiveQueryDependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,19 +87,8 @@
 				094AE9011E25AF3A00F408BC /* Foundation.framework */,
 				094AE9031E25AF4300F408BC /* Security.framework */,
 				094AE8FF1E25AF3100F408BC /* libicucore.tbd */,
-				134BA462F0A98050EB4A9369 /* Pods_ParseLiveQuery_iOS.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		25A38BB123047A47465050C4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CADC455FCB6D34CEEC120D03 /* Pods-ParseLiveQuery-iOS.debug.xcconfig */,
-				B8A533FD810366634B0961E9 /* Pods-ParseLiveQuery-iOS.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
 			sourceTree = "<group>";
 		};
 		81464FC51CA31DA0000235E7 /* Resources */ = {
@@ -86,13 +99,25 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		F1FBD45C2FE05EC3008DBA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBD4592FE05EC3008DBA5A /* Bolts.xcframework */,
+				F1FBD45A2FE05EC3008DBA5A /* BoltsSwift.xcframework */,
+				F1FBD45B2FE05EC3008DBA5A /* TMGParseCore.xcframework */,
+			);
+			name = Frameworks;
+			path = ../Frameworks;
+			sourceTree = SOURCE_ROOT;
+		};
 		F5256FC41BD71F9A0052FB8A = {
 			isa = PBXGroup;
 			children = (
+				F1FBD45C2FE05EC3008DBA5A /* Frameworks */,
 				F5256FD01BD71F9A0052FB8A /* ParseLiveQuery */,
+				F1FBD4302FE054DB008DBA5A /* TMGParseLiveQueryTests */,
 				F5256FCF1BD71F9A0052FB8A /* Products */,
 				0BD13CAB7945A6C1A2A7B613 /* Frameworks */,
-				25A38BB123047A47465050C4 /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -102,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F5A9BFCA1BE0248D00E78326 /* TMGParseLiveQuery.framework */,
+				F1FBD42F2FE054DB008DBA5A /* TMGParseLiveQueryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,11 +170,31 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F1FBD42E2FE054DB008DBA5A /* TMGParseLiveQueryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FBD4382FE054DB008DBA5A /* Build configuration list for PBXNativeTarget "TMGParseLiveQueryTests" */;
+			buildPhases = (
+				F1FBD42B2FE054DB008DBA5A /* Sources */,
+				F1FBD42C2FE054DB008DBA5A /* Frameworks */,
+				F1FBD42D2FE054DB008DBA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FBD4352FE054DB008DBA5A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F1FBD4302FE054DB008DBA5A /* TMGParseLiveQueryTests */,
+			);
+			name = TMGParseLiveQueryTests;
+			productName = TMGParseLiveQueryTests;
+			productReference = F1FBD42F2FE054DB008DBA5A /* TMGParseLiveQueryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F5A9BFB61BE0248D00E78326 /* ParseLiveQuery-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5A9BFC71BE0248D00E78326 /* Build configuration list for PBXNativeTarget "ParseLiveQuery-iOS" */;
 			buildPhases = (
-				C3FBA5D5663049399191974D /* [CP] Check Pods Manifest.lock */,
 				F5A9BFBA1BE0248D00E78326 /* Sources */,
 				F5A9BFC01BE0248D00E78326 /* Frameworks */,
 				F5A9BFC31BE0248D00E78326 /* Headers */,
@@ -169,9 +215,13 @@
 		F5256FC51BD71F9A0052FB8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Parse;
 				TargetAttributes = {
+					F1FBD42E2FE054DB008DBA5A = {
+						CreatedOnToolsVersion = 26.4;
+					};
 					F5A9BFB61BE0248D00E78326 = {
 						LastSwiftMigration = 1010;
 					};
@@ -186,16 +236,27 @@
 				Base,
 			);
 			mainGroup = F5256FC41BD71F9A0052FB8A;
+			packageReferences = (
+				F1FBD4702FE42ABE008DBA5A /* XCLocalSwiftPackageReference "../Frameworks" */,
+			);
 			productRefGroup = F5256FCF1BD71F9A0052FB8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F5A9BFB61BE0248D00E78326 /* ParseLiveQuery-iOS */,
+				F1FBD42E2FE054DB008DBA5A /* TMGParseLiveQueryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F1FBD42D2FE054DB008DBA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5A9BFC51BE0248D00E78326 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,32 +266,14 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C3FBA5D5663049399191974D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		F1FBD42B2FE054DB008DBA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ParseLiveQuery-iOS-checkManifestLockResult.txt",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		F5A9BFBA1BE0248D00E78326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,7 +292,107 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F1FBD4352FE054DB008DBA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A9BFB61BE0248D00E78326 /* ParseLiveQuery-iOS */;
+			targetProxy = F1FBD4342FE054DB008DBA5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F1FBD4362FE054DB008DBA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themeetgroup.TMGParseLiveQueryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FBD4372FE054DB008DBA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themeetgroup.TMGParseLiveQueryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F5256FE01BD71F9A0052FB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -319,15 +462,15 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		F5A9BFC81BE0248D00E78326 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CADC455FCB6D34CEEC120D03 /* Pods-ParseLiveQuery-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -339,8 +482,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ParseLiveQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 2.8.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.parse.livequery.ios;
@@ -356,7 +503,6 @@
 		};
 		F5A9BFC91BE0248D00E78326 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8A533FD810366634B0961E9 /* Pods-ParseLiveQuery-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -368,8 +514,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ParseLiveQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 2.8.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.parse.livequery.ios;
@@ -385,6 +535,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F1FBD4382FE054DB008DBA5A /* Build configuration list for PBXNativeTarget "TMGParseLiveQueryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FBD4362FE054DB008DBA5A /* Debug */,
+				F1FBD4372FE054DB008DBA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F5256FC81BD71F9A0052FB8A /* Build configuration list for PBXProject "ParseLiveQuery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -404,6 +563,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F1FBD4702FE42ABE008DBA5A /* XCLocalSwiftPackageReference "../Frameworks" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Frameworks;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1FBD4712FE42ABE008DBA5A /* LiveQueryDependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LiveQueryDependencies;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5256FC51BD71F9A0052FB8A /* Project object */;
 }

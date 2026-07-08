@@ -1,8 +1,6 @@
 # Parse LiveQuery Client for iOS/OSX
 
 [![Platforms][platforms-svg]][platforms-link]
-[![Carthage compatible][carthage-svg]][carthage-link]
-[![Podspec][podspec-svg]][podspec-link]
 [![License][license-svg]][license-link]
 ![ci](https://github.com/parse-community/ParseLiveQuery-iOS-OSX/workflows/ci/badge.svg?branch=main)
 ![release](https://github.com/parse-community/ParseLiveQuery-iOS-OSX/workflows/release/badge.svg)
@@ -26,11 +24,14 @@ The easiest way to setup the LiveQuery server is to make it run with the [Open S
 
 ## Install Client
 
-### Cocoapods
+This TMG fork is distributed as a prebuilt **`TMGParseLiveQuery.xcframework`** (CocoaPods/Carthage
+packaging has been removed). Build it with:
 
-You can install the LiveQuery client via including it in your Podfile:
+    ./Generate-XCFramework.sh
 
-    pod 'ParseLiveQuery'
+then link the resulting `TMGParseLiveQuery.xcframework` (along with its vendored dependency
+frameworks in `Frameworks/`) into your project. See [BUILD.md](BUILD.md) for the full build and
+dependency-sync process.
 
 
 ## Use Client
